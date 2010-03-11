@@ -1,0 +1,1004 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+AAEval	AliasAnalysisEvaluator.cpp	/^    AAEval() : FunctionPass(&ID) {}$/;"	f	class:__anon19::AAEval
+AAEval	AliasAnalysisEvaluator.cpp	/^  class VISIBILITY_HIDDEN AAEval : public FunctionPass {$/;"	c	namespace:__anon19	file:
+APIntCompare	ScalarEvolution.cpp	/^  struct APIntCompare {$/;"	s	namespace:__anon2	file:
+ASTCallbackVH	AliasSetTracker.cpp	/^AliasSetTracker::ASTCallbackVH::ASTCallbackVH(Value *V, AliasSetTracker *ast)$/;"	f	class:AliasSetTracker::ASTCallbackVH
+AddConstraintsForCall	IPA/Andersens.cpp	/^void Andersens::AddConstraintsForCall(CallSite CS, Function *F) {$/;"	f	class:Andersens
+AddConstraintsForExternalCall	IPA/Andersens.cpp	/^bool Andersens::AddConstraintsForExternalCall(CallSite CS, Function *F) {$/;"	f	class:Andersens
+AddConstraintsForNonInternalLinkage	IPA/Andersens.cpp	/^void Andersens::AddConstraintsForNonInternalLinkage(Function *F) {$/;"	f	class:Andersens
+AddGlobalInitializerConstraints	IPA/Andersens.cpp	/^void Andersens::AddGlobalInitializerConstraints(unsigned NodeIndex,$/;"	f	class:Andersens
+AddUsersIfInteresting	IVUsers.cpp	/^bool IVUsers::AddUsersIfInteresting(Instruction *I) {$/;"	f	class:IVUsers
+AddressOf	IPA/Andersens.cpp	/^      enum ConstraintType { Copy, Load, Store, AddressOf } Type;$/;"	e	enum:__anon13::Andersens::Constraint::ConstraintType	file:
+AddressTaken	IPA/Andersens.cpp	/^      bool AddressTaken;$/;"	m	struct:__anon13::Andersens::Node	file:
+AliasAnalysisCounter	AliasAnalysisCounter.cpp	/^    AliasAnalysisCounter() : ModulePass(&ID) {$/;"	f	class:__anon10::AliasAnalysisCounter
+AliasAnalysisCounter	AliasAnalysisCounter.cpp	/^  class VISIBILITY_HIDDEN AliasAnalysisCounter $/;"	c	namespace:__anon10	file:
+AliasDebugger	AliasDebugger.cpp	/^    AliasDebugger() : ModulePass(&ID) {}$/;"	f	class:__anon18::AliasDebugger
+AliasDebugger	AliasDebugger.cpp	/^  class VISIBILITY_HIDDEN AliasDebugger $/;"	c	namespace:__anon18	file:
+AliasSetPrinter	AliasSetTracker.cpp	/^    AliasSetPrinter() : FunctionPass(&ID) {}$/;"	f	class:__anon4::AliasSetPrinter
+AliasSetPrinter	AliasSetTracker.cpp	/^  class VISIBILITY_HIDDEN AliasSetPrinter : public FunctionPass {$/;"	c	namespace:__anon4	file:
+AllocsForIndirectGlobals	IPA/GlobalsModRef.cpp	/^    std::map<Value*, GlobalValue*> AllocsForIndirectGlobals;$/;"	m	class:__anon11::GlobalsModRef	file:
+AnalyzeCallGraph	IPA/GlobalsModRef.cpp	/^void GlobalsModRef::AnalyzeCallGraph(CallGraph &CG, Module &M) {$/;"	f	class:GlobalsModRef
+AnalyzeGlobals	IPA/GlobalsModRef.cpp	/^void GlobalsModRef::AnalyzeGlobals(Module &M) {$/;"	f	class:GlobalsModRef
+AnalyzeIndirectGlobalMemory	IPA/GlobalsModRef.cpp	/^bool GlobalsModRef::AnalyzeIndirectGlobalMemory(GlobalValue *GV) {$/;"	f	class:GlobalsModRef
+AnalyzeLibCallDetails	LibCallAliasAnalysis.cpp	/^LibCallAliasAnalysis::AnalyzeLibCallDetails(const LibCallFunctionInfo *FI,$/;"	f	class:LibCallAliasAnalysis
+AnalyzeUsesOfFunction	IPA/Andersens.cpp	/^bool Andersens::AnalyzeUsesOfFunction(Value *V) {$/;"	f	class:Andersens
+AnalyzeUsesOfPointer	IPA/GlobalsModRef.cpp	/^bool GlobalsModRef::AnalyzeUsesOfPointer(Value *V,$/;"	f	class:GlobalsModRef
+Andersens	IPA/Andersens.cpp	/^    Andersens() : ModulePass(&ID) {}$/;"	f	class:__anon13::Andersens
+Andersens	IPA/Andersens.cpp	/^  class VISIBILITY_HIDDEN Andersens : public ModulePass, public AliasAnalysis,$/;"	c	namespace:__anon13	file:
+AssertSorted	MemoryDependenceAnalysis.cpp	/^static void AssertSorted(MemoryDependenceAnalysis::NonLocalDepInfo &Cache,$/;"	f	file:
+BBisVisited	ProfileEstimatorPass.cpp	/^    std::set<BasicBlock*>  BBisVisited;$/;"	m	class:__anon3::ProfileEstimatorPass	file:
+BUILD_ARCHIVE	IPA/Makefile	/^BUILD_ARCHIVE = 1$/;"	m
+BUILD_ARCHIVE	Makefile	/^BUILD_ARCHIVE = 1$/;"	m
+BasicAliasAnalysis	BasicAliasAnalysis.cpp	/^    BasicAliasAnalysis() : NoAA(&ID) {}$/;"	f	struct:__anon17::BasicAliasAnalysis
+BasicAliasAnalysis	BasicAliasAnalysis.cpp	/^  struct VISIBILITY_HIDDEN BasicAliasAnalysis : public NoAA {$/;"	s	namespace:__anon17	file:
+BasicCallGraph	IPA/CallGraph.cpp	/^  BasicCallGraph() : ModulePass(&ID), Root(0), $/;"	f	class:__anon12::BasicCallGraph
+BasicCallGraph	IPA/CallGraph.cpp	/^class VISIBILITY_HIDDEN BasicCallGraph : public CallGraph, public ModulePass {$/;"	c	namespace:__anon12	file:
+BinomialCoefficient	ScalarEvolution.cpp	/^static const SCEV *BinomialCoefficient(const SCEV *It, unsigned K,$/;"	f	file:
+BitVectorMap	IPA/Andersens.cpp	/^    typedef DenseMap<SparseBitVector<> *, unsigned, BitmapKeyInfo> BitVectorMap;$/;"	t	class:__anon13::Andersens	file:
+BitmapKeyInfo	IPA/Andersens.cpp	/^  struct BitmapKeyInfo {$/;"	s	namespace:__anon13	file:
+BuildSubAggregate	ValueTracking.cpp	/^static Value *BuildSubAggregate(Value *From, Value* To, const Type *IndexedType,$/;"	f	file:
+BuildSubAggregate	ValueTracking.cpp	/^static Value *BuildSubAggregate(Value *From, const unsigned *idx_begin,$/;"	f	file:
+ByteSwap	ProfileInfoLoader.cpp	/^static inline unsigned ByteSwap(unsigned Var, bool Really) {$/;"	f	file:
+CFGOnlyPrinter	CFGPrinter.cpp	/^    CFGOnlyPrinter() : FunctionPass(&ID) {}$/;"	f	struct:__anon8::CFGOnlyPrinter
+CFGOnlyPrinter	CFGPrinter.cpp	/^    explicit CFGOnlyPrinter(void *pid) : FunctionPass(pid) {}$/;"	f	struct:__anon8::CFGOnlyPrinter
+CFGOnlyPrinter	CFGPrinter.cpp	/^  struct VISIBILITY_HIDDEN CFGOnlyPrinter : public FunctionPass {$/;"	s	namespace:__anon8	file:
+CFGOnlyViewer	CFGPrinter.cpp	/^    CFGOnlyViewer() : FunctionPass(&ID) {}$/;"	f	struct:__anon6::CFGOnlyViewer
+CFGOnlyViewer	CFGPrinter.cpp	/^  struct VISIBILITY_HIDDEN CFGOnlyViewer : public FunctionPass {$/;"	s	namespace:__anon6	file:
+CFGPrinter	CFGPrinter.cpp	/^    CFGPrinter() : FunctionPass(&ID) {}$/;"	f	struct:__anon7::CFGPrinter
+CFGPrinter	CFGPrinter.cpp	/^    explicit CFGPrinter(void *pid) : FunctionPass(pid) {}$/;"	f	struct:__anon7::CFGPrinter
+CFGPrinter	CFGPrinter.cpp	/^  struct VISIBILITY_HIDDEN CFGPrinter : public FunctionPass {$/;"	s	namespace:__anon7	file:
+CFGViewer	CFGPrinter.cpp	/^    CFGViewer() : FunctionPass(&ID) {}$/;"	f	struct:__anon5::CFGViewer
+CFGViewer	CFGPrinter.cpp	/^  struct VISIBILITY_HIDDEN CFGViewer : public FunctionPass {$/;"	s	namespace:__anon5	file:
+CGPassManager	IPA/CallGraphSCCPass.cpp	/^  explicit CGPassManager(int Depth) $/;"	f	class:__anon15::CGPassManager
+CGPassManager	IPA/CallGraphSCCPass.cpp	/^class CGPassManager : public ModulePass, public PMDataManager {$/;"	c	namespace:__anon15	file:
+CallFirstArgPos	IPA/Andersens.cpp	/^static const unsigned CallFirstArgPos = 2;$/;"	v	file:
+CallReturnPos	IPA/Andersens.cpp	/^static const unsigned CallReturnPos = 1;$/;"	v	file:
+CallsExternalNode	IPA/CallGraph.cpp	/^  CallGraphNode *CallsExternalNode;$/;"	m	class:__anon12::BasicCallGraph	file:
+CanConstantFold	ScalarEvolution.cpp	/^static bool CanConstantFold(const Instruction *I) {$/;"	f	file:
+CannotBeNegativeZero	ValueTracking.cpp	/^bool llvm::CannotBeNegativeZero(const Value *V, unsigned Depth) {$/;"	f	class:llvm
+CheckGEPInstructions	BasicAliasAnalysis.cpp	/^BasicAliasAnalysis::CheckGEPInstructions($/;"	f	class:BasicAliasAnalysis
+ClumpAddressTaken	IPA/Andersens.cpp	/^void Andersens::ClumpAddressTaken() {$/;"	f	class:Andersens
+CollectAddOperandsWithScales	ScalarEvolution.cpp	/^CollectAddOperandsWithScales(DenseMap<const SCEV *, APInt> &M,$/;"	f	file:
+CollectConstraints	IPA/Andersens.cpp	/^void Andersens::CollectConstraints(Module &M) {$/;"	f	class:Andersens
+CompareTypes	ScalarEvolution.cpp	/^static bool CompareTypes(const Type *A, const Type *B) {$/;"	f	file:
+ComputeBackedgeTakenCount	ScalarEvolution.cpp	/^ScalarEvolution::ComputeBackedgeTakenCount(const Loop *L) {$/;"	f	class:ScalarEvolution
+ComputeBackedgeTakenCountExhaustively	ScalarEvolution.cpp	/^ScalarEvolution::ComputeBackedgeTakenCountExhaustively(const Loop *L,$/;"	f	class:ScalarEvolution
+ComputeBackedgeTakenCountFromExit	ScalarEvolution.cpp	/^ScalarEvolution::ComputeBackedgeTakenCountFromExit(const Loop *L,$/;"	f	class:ScalarEvolution
+ComputeBackedgeTakenCountFromExitCond	ScalarEvolution.cpp	/^ScalarEvolution::ComputeBackedgeTakenCountFromExitCond(const Loop *L,$/;"	f	class:ScalarEvolution
+ComputeBackedgeTakenCountFromExitCondICmp	ScalarEvolution.cpp	/^ScalarEvolution::ComputeBackedgeTakenCountFromExitCondICmp(const Loop *L,$/;"	f	class:ScalarEvolution
+ComputeLoadConstantCompareBackedgeTakenCount	ScalarEvolution.cpp	/^ScalarEvolution::ComputeLoadConstantCompareBackedgeTakenCount($/;"	f	class:ScalarEvolution
+ComputeMaskedBits	ValueTracking.cpp	/^void llvm::ComputeMaskedBits(Value *V, const APInt &Mask,$/;"	f	class:llvm
+ComputeNumSignBits	ValueTracking.cpp	/^unsigned llvm::ComputeNumSignBits(Value *V, TargetData *TD, unsigned Depth) {$/;"	f	class:llvm
+Condense	IPA/Andersens.cpp	/^void Andersens::Condense(unsigned NodeIndex) {$/;"	f	class:Andersens
+ConstantFoldBinaryFP	ConstantFolding.cpp	/^static Constant *ConstantFoldBinaryFP(double (*NativeFP)(double, double),$/;"	f	file:
+ConstantFoldCall	ConstantFolding.cpp	/^llvm::ConstantFoldCall(Function *F, $/;"	f	class:llvm
+ConstantFoldCompareInstOperands	ConstantFolding.cpp	/^Constant *llvm::ConstantFoldCompareInstOperands(unsigned Predicate,$/;"	f	class:llvm
+ConstantFoldConstantExpression	ConstantFolding.cpp	/^Constant *llvm::ConstantFoldConstantExpression(ConstantExpr *CE,$/;"	f	class:llvm
+ConstantFoldFP	ConstantFolding.cpp	/^static Constant *ConstantFoldFP(double (*NativeFP)(double), double V, $/;"	f	file:
+ConstantFoldInstOperands	ConstantFolding.cpp	/^Constant *llvm::ConstantFoldInstOperands(unsigned Opcode, const Type *DestTy, $/;"	f	class:llvm
+ConstantFoldInstruction	ConstantFolding.cpp	/^Constant *llvm::ConstantFoldInstruction(Instruction *I, LLVMContext &Context,$/;"	f	class:llvm
+ConstantFoldLoadThroughGEPConstantExpr	ConstantFolding.cpp	/^Constant *llvm::ConstantFoldLoadThroughGEPConstantExpr(Constant *C, $/;"	f	class:llvm
+Constraint	IPA/Andersens.cpp	/^      Constraint(ConstraintType Ty, unsigned D, unsigned S, unsigned O = 0)$/;"	f	struct:__anon13::Andersens::Constraint
+Constraint	IPA/Andersens.cpp	/^    struct Constraint {$/;"	s	class:__anon13::Andersens	file:
+ConstraintKeyInfo	IPA/Andersens.cpp	/^    struct ConstraintKeyInfo {$/;"	s	class:__anon13::Andersens	file:
+ConstraintType	IPA/Andersens.cpp	/^      enum ConstraintType { Copy, Load, Store, AddressOf } Type;$/;"	g	struct:__anon13::Andersens::Constraint	file:
+Constraints	IPA/Andersens.cpp	/^      std::list<Constraint> Constraints;$/;"	m	struct:__anon13::Andersens::Node	file:
+Constraints	IPA/Andersens.cpp	/^    std::vector<Constraint> Constraints;$/;"	m	class:__anon13::Andersens	file:
+Copy	IPA/Andersens.cpp	/^      enum ConstraintType { Copy, Load, Store, AddressOf } Type;$/;"	e	enum:__anon13::Andersens::Constraint::ConstraintType	file:
+Counter	IPA/Andersens.cpp	/^      static volatile sys::cas_flag Counter;$/;"	m	struct:__anon13::Andersens::Node	file:
+Counter	IPA/Andersens.cpp	/^volatile llvm::sys::cas_flag Andersens::Node::Counter = 0;$/;"	m	class:Andersens::Node	file:
+CreateBasicType	DebugInfo.cpp	/^DIBasicType DIFactory::CreateBasicType(DIDescriptor Context,$/;"	f	class:DIFactory
+CreateBlock	DebugInfo.cpp	/^DIBlock DIFactory::CreateBlock(DIDescriptor Context) {$/;"	f	class:DIFactory
+CreateCompileUnit	DebugInfo.cpp	/^DICompileUnit DIFactory::CreateCompileUnit(unsigned LangID,$/;"	f	class:DIFactory
+CreateCompositeType	DebugInfo.cpp	/^DICompositeType DIFactory::CreateCompositeType(unsigned Tag,$/;"	f	class:DIFactory
+CreateConstraintGraph	IPA/Andersens.cpp	/^void Andersens::CreateConstraintGraph() {$/;"	f	class:Andersens
+CreateDerivedType	DebugInfo.cpp	/^DIDerivedType DIFactory::CreateDerivedType(unsigned Tag,$/;"	f	class:DIFactory
+CreateEnumerator	DebugInfo.cpp	/^DIEnumerator DIFactory::CreateEnumerator(const std::string &Name, uint64_t Val){$/;"	f	class:DIFactory
+CreateGlobalVariable	DebugInfo.cpp	/^DIFactory::CreateGlobalVariable(DIDescriptor Context, const std::string &Name,$/;"	f	class:DIFactory
+CreateSubprogram	DebugInfo.cpp	/^DISubprogram DIFactory::CreateSubprogram(DIDescriptor Context, $/;"	f	class:DIFactory
+CreateVariable	DebugInfo.cpp	/^DIVariable DIFactory::CreateVariable(unsigned Tag, DIDescriptor Context,$/;"	f	class:DIFactory
+CurrWL	IPA/Andersens.cpp	/^    WorkList *CurrWL, *NextWL; \/\/ "current" and "next" work lists$/;"	m	class:__anon13::Andersens	file:
+DEBUG_TYPE	IPA/Andersens.cpp	1404;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	1405;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	1472;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	1473;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	2200;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	2201;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	2203;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	2204;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	2221;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	2222;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	2224;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	2225;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	2378;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	2379;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	2381;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	2382;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	443;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	444;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	446;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	447;"	d	file:
+DEBUG_TYPE	IPA/Andersens.cpp	56;"	d	file:
+DEBUG_TYPE	IPA/GlobalsModRef.cpp	17;"	d	file:
+DEBUG_TYPE	IVUsers.cpp	15;"	d	file:
+DEBUG_TYPE	InstCount.cpp	14;"	d	file:
+DEBUG_TYPE	LoopDependenceAnalysis.cpp	22;"	d	file:
+DEBUG_TYPE	LoopVR.cpp	14;"	d	file:
+DEBUG_TYPE	MemoryDependenceAnalysis.cpp	17;"	d	file:
+DEBUG_TYPE	PostDominators.cpp	14;"	d	file:
+DEBUG_TYPE	ProfileEstimatorPass.cpp	14;"	d	file:
+DEBUG_TYPE	ScalarEvolution.cpp	61;"	d	file:
+DEBUG_TYPE	SparsePropagation.cpp	15;"	d	file:
+DFSNumber	IPA/Andersens.cpp	/^    unsigned DFSNumber;$/;"	m	class:__anon13::Andersens	file:
+DIDescriptor	DebugInfo.cpp	/^DIDescriptor::DIDescriptor(GlobalVariable *GV, unsigned RequiredTag) {$/;"	f	class:DIDescriptor
+DIFactory	DebugInfo.cpp	/^DIFactory::DIFactory(Module &m)$/;"	f	class:DIFactory
+DIRS	Makefile	/^DIRS = IPA$/;"	m
+DIType	DebugInfo.cpp	/^DIType::DIType(GlobalVariable *GV) : DIDescriptor(GV) {$/;"	f	class:DIType
+DOTGraphTraits	CFGPrinter.cpp	/^struct DOTGraphTraits<const Function*> : public DefaultDOTGraphTraits {$/;"	s	namespace:llvm	file:
+Dest	IPA/Andersens.cpp	/^      unsigned Dest;$/;"	m	struct:__anon13::Andersens::Constraint	file:
+Direct	IPA/Andersens.cpp	/^      bool Direct;$/;"	m	struct:__anon13::Andersens::Node	file:
+EDGE_ERROR	ProfileEstimatorPass.cpp	86;"	d	file:
+EDGE_WEIGHT	ProfileEstimatorPass.cpp	90;"	d	file:
+Edges	IPA/Andersens.cpp	/^      SparseBitVector<> *Edges;$/;"	m	struct:__anon13::Andersens::Node	file:
+EvaluateConstantChrecAtConstant	ScalarEvolution.cpp	/^EvaluateConstantChrecAtConstant(const SCEVAddRecExpr *AddRec, ConstantInt *C,$/;"	f	file:
+EvaluateExpression	ScalarEvolution.cpp	/^static Constant *EvaluateExpression(Value *V, Constant *PHIVal) {$/;"	f	file:
+ExecCount	ProfileEstimatorPass.cpp	/^    double ExecCount;$/;"	m	class:__anon3::ProfileEstimatorPass	file:
+ExposePointerBase	ScalarEvolutionExpander.cpp	/^static void ExposePointerBase(const SCEV *&Base, const SCEV *&Rest,$/;"	f	file:
+ExternalCallingNode	IPA/CallGraph.cpp	/^  CallGraphNode *ExternalCallingNode;$/;"	m	class:__anon12::BasicCallGraph	file:
+ExtractDebugLocation	DebugInfo.cpp	/^  DebugLoc ExtractDebugLocation(DbgFuncStartInst &FSI,$/;"	f	namespace:llvm
+ExtractDebugLocation	DebugInfo.cpp	/^  DebugLoc ExtractDebugLocation(DbgStopPointInst &SPI,$/;"	f	namespace:llvm
+FULL_UNIVERSAL	IPA/Andersens.cpp	85;"	d	file:
+FactorOutConstant	ScalarEvolutionExpander.cpp	/^static bool FactorOutConstant(const SCEV *&S,$/;"	f	file:
+Filename	ProfileInfoLoaderPass.cpp	/^    std::string Filename;$/;"	m	class:__anon20::LoaderPass	file:
+FindEquivalentNode	IPA/Andersens.cpp	/^unsigned Andersens::FindEquivalentNode(unsigned NodeIndex,$/;"	f	class:Andersens
+FindInsertedValue	ValueTracking.cpp	/^Value *llvm::FindInsertedValue(Value *V, const unsigned *idx_begin,$/;"	f	class:llvm
+FindNode	IPA/Andersens.cpp	/^unsigned Andersens::FindNode(unsigned NodeIndex) const {$/;"	f	class:Andersens
+FindNode	IPA/Andersens.cpp	/^unsigned Andersens::FindNode(unsigned NodeIndex) {$/;"	f	class:Andersens
+FirstAdrNode	IPA/Andersens.cpp	/^    unsigned FirstAdrNode;$/;"	m	class:__anon13::Andersens	file:
+FirstRefNode	IPA/Andersens.cpp	/^    unsigned FirstRefNode;$/;"	m	class:__anon13::Andersens	file:
+FoldBitCast	ConstantFolding.cpp	/^static Constant *FoldBitCast(Constant *C, const Type *DestTy,$/;"	f	file:
+ForgetSymbolicName	ScalarEvolution.cpp	/^ScalarEvolution::ForgetSymbolicName(Instruction *I, const SCEV *SymName) {$/;"	f	class:ScalarEvolution
+FunctionEffect	IPA/GlobalsModRef.cpp	/^    unsigned FunctionEffect;$/;"	m	struct:__anon11::FunctionRecord	file:
+FunctionInfo	IPA/GlobalsModRef.cpp	/^    std::map<Function*, FunctionRecord> FunctionInfo;$/;"	m	class:__anon11::GlobalsModRef	file:
+FunctionRecord	IPA/GlobalsModRef.cpp	/^    FunctionRecord() : MayReadAnyGlobal (false), FunctionEffect(0) {}$/;"	f	struct:__anon11::FunctionRecord
+FunctionRecord	IPA/GlobalsModRef.cpp	/^  struct VISIBILITY_HIDDEN FunctionRecord {$/;"	s	namespace:__anon11	file:
+GET_INTRINSIC_MODREF_BEHAVIOR	AliasAnalysis.cpp	130;"	d	file:
+GET_INTRINSIC_MODREF_BEHAVIOR	AliasAnalysis.cpp	132;"	d	file:
+GetAddressedElementFromGlobal	ScalarEvolution.cpp	/^GetAddressedElementFromGlobal(LLVMContext &Context, GlobalVariable *GV,$/;"	f	file:
+GetConstantStringInfo	ValueTracking.cpp	/^bool llvm::GetConstantStringInfo(Value *V, std::string &Str, uint64_t Offset,$/;"	f	class:llvm
+GetGEPOperands	BasicAliasAnalysis.cpp	/^static const Value *GetGEPOperands(const Value *V, $/;"	f	file:
+GetMemRefInstrs	LoopDependenceAnalysis.cpp	/^static void GetMemRefInstrs(const Loop *L,$/;"	f	file:
+GetMinTrailingZeros	ScalarEvolution.cpp	/^ScalarEvolution::GetMinTrailingZeros(const SCEV *S) {$/;"	f	class:ScalarEvolution
+GetNonLocalInfoForBlock	MemoryDependenceAnalysis.cpp	/^GetNonLocalInfoForBlock(Value *Pointer, uint64_t PointeeSize,$/;"	f	class:MemoryDependenceAnalysis
+GetOrCreateArray	DebugInfo.cpp	/^DIArray DIFactory::GetOrCreateArray(DIDescriptor *Tys, unsigned NumTys) {$/;"	f	class:DIFactory
+GetOrCreateSubrange	DebugInfo.cpp	/^DISubrange DIFactory::GetOrCreateSubrange(int64_t Lo, int64_t Hi) {$/;"	f	class:DIFactory
+GetPointerOperand	LoopDependenceAnalysis.cpp	/^static Value *GetPointerOperand(Value *I) {$/;"	f	file:
+GetStringConstant	DebugInfo.cpp	/^Constant *DIFactory::GetStringConstant(const std::string &String) {$/;"	f	class:DIFactory
+GetTagConstant	DebugInfo.cpp	/^Constant *DIFactory::GetTagConstant(unsigned TAG) {$/;"	f	class:DIFactory
+GetZeroSCEV	LoopDependenceAnalysis.cpp	/^static inline const SCEV *GetZeroSCEV(ScalarEvolution *SE) {$/;"	f	file:
+GlobalInfo	IPA/GlobalsModRef.cpp	/^    std::map<GlobalValue*, unsigned> GlobalInfo;$/;"	m	struct:__anon11::FunctionRecord	file:
+GlobalsModRef	IPA/GlobalsModRef.cpp	/^    GlobalsModRef() : ModulePass(&ID) {}$/;"	f	class:__anon11::GlobalsModRef
+GlobalsModRef	IPA/GlobalsModRef.cpp	/^  class VISIBILITY_HIDDEN GlobalsModRef$/;"	c	namespace:__anon11	file:
+GraphNodes	IPA/Andersens.cpp	/^    std::vector<Node> GraphNodes;$/;"	m	class:__anon13::Andersens	file:
+GroupByComplexity	ScalarEvolution.cpp	/^static void GroupByComplexity(SmallVectorImpl<const SCEV *> &Ops,$/;"	f	file:
+HANDLE_INST	InstCount.cpp	30;"	d	file:
+HANDLE_INST	InstCount.cpp	44;"	d	file:
+HCD	IPA/Andersens.cpp	/^void Andersens::HCD() {$/;"	f	class:Andersens
+HCDSCCRep	IPA/Andersens.cpp	/^    std::vector<unsigned> HCDSCCRep;$/;"	m	class:__anon13::Andersens	file:
+HU	IPA/Andersens.cpp	/^void Andersens::HU() {$/;"	f	class:Andersens
+HUValNum	IPA/Andersens.cpp	/^void Andersens::HUValNum(unsigned NodeIndex) {$/;"	f	class:Andersens
+HVN	IPA/Andersens.cpp	/^void Andersens::HVN() {$/;"	f	class:Andersens
+HVNValNum	IPA/Andersens.cpp	/^void Andersens::HVNValNum(unsigned NodeIndex) {$/;"	f	class:Andersens
+HasSameValue	ScalarEvolution.cpp	/^static bool HasSameValue(const SCEV *A, const SCEV *B) {$/;"	f	file:
+HowFarToNonZero	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::HowFarToNonZero(const SCEV *V, const Loop *L) {$/;"	f	class:ScalarEvolution
+HowFarToZero	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::HowFarToZero(const SCEV *V, const Loop *L) {$/;"	f	class:ScalarEvolution
+HowManyLessThans	ScalarEvolution.cpp	/^ScalarEvolution::HowManyLessThans(const SCEV *LHS, const SCEV *RHS,$/;"	f	class:ScalarEvolution
+ID	AliasAnalysis.cpp	/^char AliasAnalysis::ID = 0;$/;"	m	class:AliasAnalysis	file:
+ID	AliasAnalysisCounter.cpp	/^    static char ID; \/\/ Class identification, replacement for typeinfo$/;"	m	class:__anon10::AliasAnalysisCounter	file:
+ID	AliasAnalysisCounter.cpp	/^char AliasAnalysisCounter::ID = 0;$/;"	m	class:AliasAnalysisCounter	file:
+ID	AliasAnalysisEvaluator.cpp	/^    static char ID; \/\/ Pass identification, replacement for typeid$/;"	m	class:__anon19::AAEval	file:
+ID	AliasAnalysisEvaluator.cpp	/^char AAEval::ID = 0;$/;"	m	class:AAEval	file:
+ID	AliasDebugger.cpp	/^    static char ID; \/\/ Class identification, replacement for typeinfo$/;"	m	class:__anon18::AliasDebugger	file:
+ID	AliasDebugger.cpp	/^char AliasDebugger::ID = 0;$/;"	m	class:AliasDebugger	file:
+ID	AliasSetTracker.cpp	/^    static char ID; \/\/ Pass identification, replacement for typeid$/;"	m	class:__anon4::AliasSetPrinter	file:
+ID	AliasSetTracker.cpp	/^char AliasSetPrinter::ID = 0;$/;"	m	class:AliasSetPrinter	file:
+ID	BasicAliasAnalysis.cpp	/^    static char ID; \/\/ Class identification, replacement for typeinfo$/;"	m	struct:__anon16::NoAA	file:
+ID	BasicAliasAnalysis.cpp	/^    static char ID; \/\/ Class identification, replacement for typeinfo$/;"	m	struct:__anon17::BasicAliasAnalysis	file:
+ID	BasicAliasAnalysis.cpp	/^char BasicAliasAnalysis::ID = 0;$/;"	m	class:BasicAliasAnalysis	file:
+ID	BasicAliasAnalysis.cpp	/^char NoAA::ID = 0;$/;"	m	class:NoAA	file:
+ID	CFGPrinter.cpp	/^    static char ID; \/\/ Pass identifcation, replacement for typeid$/;"	m	struct:__anon5::CFGViewer	file:
+ID	CFGPrinter.cpp	/^    static char ID; \/\/ Pass identifcation, replacement for typeid$/;"	m	struct:__anon6::CFGOnlyViewer	file:
+ID	CFGPrinter.cpp	/^    static char ID; \/\/ Pass identification, replacement for typeid$/;"	m	struct:__anon7::CFGPrinter	file:
+ID	CFGPrinter.cpp	/^    static char ID; \/\/ Pass identification, replacement for typeid$/;"	m	struct:__anon8::CFGOnlyPrinter	file:
+ID	CFGPrinter.cpp	/^char CFGOnlyPrinter::ID = 0;$/;"	m	class:CFGOnlyPrinter	file:
+ID	CFGPrinter.cpp	/^char CFGOnlyViewer::ID = 0;$/;"	m	class:CFGOnlyViewer	file:
+ID	CFGPrinter.cpp	/^char CFGPrinter::ID = 0;$/;"	m	class:CFGPrinter	file:
+ID	CFGPrinter.cpp	/^char CFGViewer::ID = 0;$/;"	m	class:CFGViewer	file:
+ID	DbgInfoPrinter.cpp	/^    static char ID; \/\/ Pass identification$/;"	m	class:__anon9::PrintDbgInfo	file:
+ID	DbgInfoPrinter.cpp	/^  char PrintDbgInfo::ID = 0;$/;"	m	class:__anon9::PrintDbgInfo	file:
+ID	IPA/Andersens.cpp	/^    static char ID;$/;"	m	class:__anon13::Andersens	file:
+ID	IPA/Andersens.cpp	/^char Andersens::ID = 0;$/;"	m	class:Andersens	file:
+ID	IPA/CallGraph.cpp	/^  static char ID; \/\/ Class identification, replacement for typeinfo$/;"	m	class:__anon12::BasicCallGraph	file:
+ID	IPA/CallGraph.cpp	/^char BasicCallGraph::ID = 0;$/;"	m	class:BasicCallGraph	file:
+ID	IPA/CallGraph.cpp	/^char CallGraph::ID = 0;$/;"	m	class:CallGraph	file:
+ID	IPA/CallGraphSCCPass.cpp	/^  static char ID;$/;"	m	class:__anon15::CGPassManager	file:
+ID	IPA/CallGraphSCCPass.cpp	/^char CGPassManager::ID = 0;$/;"	m	class:CGPassManager	file:
+ID	IPA/FindUsedTypes.cpp	/^char FindUsedTypes::ID = 0;$/;"	m	class:FindUsedTypes	file:
+ID	IPA/GlobalsModRef.cpp	/^    static char ID;$/;"	m	class:__anon11::GlobalsModRef	file:
+ID	IPA/GlobalsModRef.cpp	/^char GlobalsModRef::ID = 0;$/;"	m	class:GlobalsModRef	file:
+ID	IVUsers.cpp	/^char IVUsers::ID = 0;$/;"	m	class:IVUsers	file:
+ID	InstCount.cpp	/^    static char ID; \/\/ Pass identification, replacement for typeid$/;"	m	class:__anon22::InstCount	file:
+ID	InstCount.cpp	/^char InstCount::ID = 0;$/;"	m	class:InstCount	file:
+ID	IntervalPartition.cpp	/^char IntervalPartition::ID = 0;$/;"	m	class:IntervalPartition	file:
+ID	LibCallAliasAnalysis.cpp	/^char LibCallAliasAnalysis::ID = 0;$/;"	m	class:LibCallAliasAnalysis	file:
+ID	LiveValues.cpp	/^char LiveValues::ID = 0;$/;"	m	class:LiveValues	file:
+ID	LoopDependenceAnalysis.cpp	/^char LoopDependenceAnalysis::ID = 0;$/;"	m	class:LoopDependenceAnalysis	file:
+ID	LoopInfo.cpp	/^char LoopInfo::ID = 0;$/;"	m	class:LoopInfo	file:
+ID	LoopPass.cpp	/^char LPPassManager::ID = 0;$/;"	m	class:LPPassManager	file:
+ID	LoopVR.cpp	/^char LoopVR::ID = 0;$/;"	m	class:LoopVR	file:
+ID	MemoryDependenceAnalysis.cpp	/^char MemoryDependenceAnalysis::ID = 0;$/;"	m	class:MemoryDependenceAnalysis	file:
+ID	PointerTracking.cpp	/^char PointerTracking::ID=0;$/;"	m	class:llvm::PointerTracking	file:
+ID	PostDominators.cpp	/^char PostDominanceFrontier::ID = 0;$/;"	m	class:PostDominanceFrontier	file:
+ID	PostDominators.cpp	/^char PostDominatorTree::ID = 0;$/;"	m	class:PostDominatorTree	file:
+ID	ProfileEstimatorPass.cpp	/^    static char ID; \/\/ Class identification, replacement for typeinfo$/;"	m	class:__anon3::ProfileEstimatorPass	file:
+ID	ProfileEstimatorPass.cpp	/^char ProfileEstimatorPass::ID = 0;$/;"	m	class:ProfileEstimatorPass	file:
+ID	ProfileInfo.cpp	/^    static char ID; \/\/ Class identification, replacement for typeinfo$/;"	m	struct:__anon21::NoProfileInfo	file:
+ID	ProfileInfo.cpp	/^char NoProfileInfo::ID = 0;$/;"	m	class:NoProfileInfo	file:
+ID	ProfileInfo.cpp	/^char ProfileInfo::ID = 0;$/;"	m	class:ProfileInfo	file:
+ID	ProfileInfoLoaderPass.cpp	/^    static char ID; \/\/ Class identification, replacement for typeinfo$/;"	m	class:__anon20::LoaderPass	file:
+ID	ProfileInfoLoaderPass.cpp	/^char LoaderPass::ID = 0;$/;"	m	class:LoaderPass	file:
+ID	ScalarEvolution.cpp	/^char ScalarEvolution::ID = 0;$/;"	m	class:ScalarEvolution	file:
+IVUseShouldUsePostIncValue	IVUsers.cpp	/^static bool IVUseShouldUsePostIncValue(Instruction *User, Instruction *IV,$/;"	f	file:
+IVUsers	IVUsers.cpp	/^IVUsers::IVUsers()$/;"	f	class:IVUsers
+IdentifyObjects	IPA/Andersens.cpp	/^void Andersens::IdentifyObjects(Module &M) {$/;"	f	class:Andersens
+ImplicitPredEdges	IPA/Andersens.cpp	/^      SparseBitVector<> *ImplicitPredEdges;$/;"	m	struct:__anon13::Andersens::Node	file:
+IncorporateType	IPA/FindUsedTypes.cpp	/^void FindUsedTypes::IncorporateType(const Type *Ty) {$/;"	f	class:FindUsedTypes
+IncorporateValue	IPA/FindUsedTypes.cpp	/^void FindUsedTypes::IncorporateValue(const Value *V) {$/;"	f	class:FindUsedTypes
+IndexOperandsEqual	BasicAliasAnalysis.cpp	/^static bool IndexOperandsEqual(Value *V1, Value *V2, LLVMContext &Context) {$/;"	f	file:
+IndirectGlobals	IPA/GlobalsModRef.cpp	/^    std::set<GlobalValue*> IndirectGlobals;$/;"	m	class:__anon11::GlobalsModRef	file:
+InitializeAliasAnalysis	AliasAnalysis.cpp	/^void AliasAnalysis::InitializeAliasAnalysis(Pass *P) {$/;"	f	class:AliasAnalysis
+InsertBinop	ScalarEvolutionExpander.cpp	/^Value *SCEVExpander::InsertBinop(Instruction::BinaryOps Opcode,$/;"	f	class:SCEVExpander
+InsertDeclare	DebugInfo.cpp	/^void DIFactory::InsertDeclare(Value *Storage, DIVariable D, BasicBlock *BB) {$/;"	f	class:DIFactory
+InsertNoopCastOfTo	ScalarEvolutionExpander.cpp	/^Value *SCEVExpander::InsertNoopCastOfTo(Value *V, const Type *Ty) {$/;"	f	class:SCEVExpander
+InsertRegionEnd	DebugInfo.cpp	/^void DIFactory::InsertRegionEnd(DIDescriptor D, BasicBlock *BB) {$/;"	f	class:DIFactory
+InsertRegionStart	DebugInfo.cpp	/^void DIFactory::InsertRegionStart(DIDescriptor D, BasicBlock *BB) {$/;"	f	class:DIFactory
+InsertStopPoint	DebugInfo.cpp	/^void DIFactory::InsertStopPoint(DICompileUnit CU, unsigned LineNo,$/;"	f	class:DIFactory
+InsertSubprogramStart	DebugInfo.cpp	/^void DIFactory::InsertSubprogramStart(DISubprogram SP, BasicBlock *BB) {$/;"	f	class:DIFactory
+InstCount	InstCount.cpp	/^    InstCount() : FunctionPass(&ID) {}$/;"	f	class:__anon22::InstCount
+InstCount	InstCount.cpp	/^  class VISIBILITY_HIDDEN InstCount $/;"	c	namespace:__anon22	file:
+IntervalPartition	IntervalPartition.cpp	/^IntervalPartition::IntervalPartition(IntervalPartition &IP, bool)$/;"	f	class:IntervalPartition
+IsConstantOffsetFromGlobal	ConstantFolding.cpp	/^static bool IsConstantOffsetFromGlobal(Constant *C, GlobalValue *&GV,$/;"	f	file:
+IsLoadOrStoreInst	LoopDependenceAnalysis.cpp	/^static bool IsLoadOrStoreInst(Value *I) {$/;"	f	file:
+IsMemRefInstr	LoopDependenceAnalysis.cpp	/^static inline bool IsMemRefInstr(const Value *V) {$/;"	f	file:
+JustMod	AliasAnalysisCounter.cpp	/^    unsigned NoMR, JustRef, JustMod, MR;$/;"	m	class:__anon10::AliasAnalysisCounter	file:
+JustRef	AliasAnalysisCounter.cpp	/^    unsigned NoMR, JustRef, JustMod, MR;$/;"	m	class:__anon10::AliasAnalysisCounter	file:
+LEVEL	IPA/Makefile	/^LEVEL = ..\/..\/..$/;"	m
+LEVEL	Makefile	/^LEVEL = ..\/..$/;"	m
+LI	ProfileEstimatorPass.cpp	/^    LoopInfo *LI;$/;"	m	class:__anon3::ProfileEstimatorPass	file:
+LI	ScalarEvolution.cpp	/^    LoopInfo *LI;$/;"	m	class:__anon1::SCEVComplexityCompare	file:
+LIBRARYNAME	IPA/Makefile	/^LIBRARYNAME = LLVMipa$/;"	m
+LIBRARYNAME	Makefile	/^LIBRARYNAME = LLVMAnalysis$/;"	m
+LLVMVerifyFunction	Analysis.cpp	/^int LLVMVerifyFunction(LLVMValueRef Fn, LLVMVerifierFailureAction Action) {$/;"	f
+LLVMVerifyModule	Analysis.cpp	/^int LLVMVerifyModule(LLVMModuleRef M, LLVMVerifierFailureAction Action,$/;"	f
+LLVMViewFunctionCFG	Analysis.cpp	/^void LLVMViewFunctionCFG(LLVMValueRef Fn) {$/;"	f
+LLVMViewFunctionCFGOnly	Analysis.cpp	/^void LLVMViewFunctionCFGOnly(LLVMValueRef Fn) {$/;"	f
+LPPassManager	LoopPass.cpp	/^LPPassManager::LPPassManager(int Depth) $/;"	f	class:LPPassManager
+LiveValues	LiveValues.cpp	/^LiveValues::LiveValues() : FunctionPass(&ID) {}$/;"	f	class:LiveValues
+Load	IPA/Andersens.cpp	/^      enum ConstraintType { Copy, Load, Store, AddressOf } Type;$/;"	e	enum:__anon13::Andersens::Constraint::ConstraintType	file:
+LoaderPass	ProfileInfoLoaderPass.cpp	/^    explicit LoaderPass(const std::string &filename = "")$/;"	f	class:__anon20::LoaderPass
+LoaderPass	ProfileInfoLoaderPass.cpp	/^  class VISIBILITY_HIDDEN LoaderPass : public ModulePass, public ProfileInfo {$/;"	c	namespace:__anon20	file:
+LocationEquivLabel	IPA/Andersens.cpp	/^      unsigned LocationEquivLabel;$/;"	m	struct:__anon13::Andersens::Node	file:
+LoopExitWeights	ProfileEstimatorPass.cpp	/^    std::map<Loop*,double> LoopExitWeights;$/;"	m	class:__anon3::ProfileEstimatorPass	file:
+M	AliasAnalysisCounter.cpp	/^    Module *M;$/;"	m	class:__anon10::AliasAnalysisCounter	file:
+MR	AliasAnalysisCounter.cpp	/^    unsigned NoMR, JustRef, JustMod, MR;$/;"	m	class:__anon10::AliasAnalysisCounter	file:
+MarkBlockExecutable	SparsePropagation.cpp	/^void SparseSolver::MarkBlockExecutable(BasicBlock *BB) {$/;"	f	class:SparseSolver
+MaskedValueIsZero	ValueTracking.cpp	/^bool llvm::MaskedValueIsZero(Value *V, const APInt &Mask,$/;"	f	class:llvm
+MaxK	IPA/Andersens.cpp	/^    std::map<unsigned, unsigned> MaxK;$/;"	m	class:__anon13::Andersens	file:
+May	AliasAnalysisCounter.cpp	/^    unsigned No, May, Must;$/;"	m	class:__anon10::AliasAnalysisCounter	file:
+MayAlias	AliasAnalysisEvaluator.cpp	/^    unsigned NoAlias, MayAlias, MustAlias;$/;"	m	class:__anon19::AAEval	file:
+MayReadAnyGlobal	IPA/GlobalsModRef.cpp	/^    bool MayReadAnyGlobal;$/;"	m	struct:__anon11::FunctionRecord	file:
+MemoryDependenceAnalysis	MemoryDependenceAnalysis.cpp	/^MemoryDependenceAnalysis::MemoryDependenceAnalysis()$/;"	f	class:MemoryDependenceAnalysis
+Mod	AliasAnalysisEvaluator.cpp	/^    unsigned NoModRef, Mod, Ref, ModRef;$/;"	m	class:__anon19::AAEval	file:
+ModRef	AliasAnalysisEvaluator.cpp	/^    unsigned NoModRef, Mod, Ref, ModRef;$/;"	m	class:__anon19::AAEval	file:
+Must	AliasAnalysisCounter.cpp	/^    unsigned No, May, Must;$/;"	m	class:__anon10::AliasAnalysisCounter	file:
+MustAlias	AliasAnalysisEvaluator.cpp	/^    unsigned NoAlias, MayAlias, MustAlias;$/;"	m	class:__anon19::AAEval	file:
+Name	AliasAnalysisCounter.cpp	/^    const char *Name;$/;"	m	class:__anon10::AliasAnalysisCounter	file:
+NextWL	IPA/Andersens.cpp	/^    WorkList *CurrWL, *NextWL; \/\/ "current" and "next" work lists$/;"	m	class:__anon13::Andersens	file:
+No	AliasAnalysisCounter.cpp	/^    unsigned No, May, Must;$/;"	m	class:__anon10::AliasAnalysisCounter	file:
+NoAA	BasicAliasAnalysis.cpp	/^    NoAA() : ImmutablePass(&ID) {}$/;"	f	struct:__anon16::NoAA
+NoAA	BasicAliasAnalysis.cpp	/^    explicit NoAA(void *PID) : ImmutablePass(PID) { }$/;"	f	struct:__anon16::NoAA
+NoAA	BasicAliasAnalysis.cpp	/^  struct VISIBILITY_HIDDEN NoAA : public ImmutablePass, public AliasAnalysis {$/;"	s	namespace:__anon16	file:
+NoAlias	AliasAnalysisEvaluator.cpp	/^    unsigned NoAlias, MayAlias, MustAlias;$/;"	m	class:__anon19::AAEval	file:
+NoMR	AliasAnalysisCounter.cpp	/^    unsigned NoMR, JustRef, JustMod, MR;$/;"	m	class:__anon10::AliasAnalysisCounter	file:
+NoModRef	AliasAnalysisEvaluator.cpp	/^    unsigned NoModRef, Mod, Ref, ModRef;$/;"	m	class:__anon19::AAEval	file:
+NoProfileInfo	ProfileInfo.cpp	/^    NoProfileInfo() : ImmutablePass(&ID) {}$/;"	f	struct:__anon21::NoProfileInfo
+NoProfileInfo	ProfileInfo.cpp	/^  struct VISIBILITY_HIDDEN NoProfileInfo $/;"	s	namespace:__anon21	file:
+Node	IPA/Andersens.cpp	/^      explicit Node(bool direct = true) :$/;"	f	struct:__anon13::Andersens::Node
+Node	IPA/Andersens.cpp	/^    struct Node {$/;"	s	class:__anon13::Andersens	file:
+Node2DFS	IPA/Andersens.cpp	/^    std::vector<unsigned> Node2DFS;$/;"	m	class:__anon13::Andersens	file:
+Node2Deleted	IPA/Andersens.cpp	/^    std::vector<bool> Node2Deleted;$/;"	m	class:__anon13::Andersens	file:
+Node2Visited	IPA/Andersens.cpp	/^    std::vector<bool> Node2Visited;$/;"	m	class:__anon13::Andersens	file:
+NodeRep	IPA/Andersens.cpp	/^      unsigned NodeRep;$/;"	m	struct:__anon13::Andersens::Node	file:
+NonAddressTakenGlobals	IPA/GlobalsModRef.cpp	/^    std::set<GlobalValue*> NonAddressTakenGlobals;$/;"	m	class:__anon11::GlobalsModRef	file:
+NullObject	IPA/Andersens.cpp	/^      NullObject   = 2,$/;"	e	enum:__anon13::Andersens::__anon14	file:
+NullPtr	IPA/Andersens.cpp	/^      NullPtr      = 1,$/;"	e	enum:__anon13::Andersens::__anon14	file:
+NumInEdges	IPA/Andersens.cpp	/^      unsigned NumInEdges;$/;"	m	struct:__anon13::Andersens::Node	file:
+NumberSpecialNodes	IPA/Andersens.cpp	/^      NumberSpecialNodes$/;"	e	enum:__anon13::Andersens::__anon14	file:
+ObjectNodes	IPA/Andersens.cpp	/^    DenseMap<Value*, unsigned> ObjectNodes;$/;"	m	class:__anon13::Andersens	file:
+Offset	IPA/Andersens.cpp	/^      unsigned Offset;$/;"	m	struct:__anon13::Andersens::Constraint	file:
+OldPointsTo	IPA/Andersens.cpp	/^      SparseBitVector<> *OldPointsTo;$/;"	m	struct:__anon13::Andersens::Node	file:
+OptimizeConstraints	IPA/Andersens.cpp	/^void Andersens::OptimizeConstraints() {$/;"	f	class:Andersens
+Out	DbgInfoPrinter.cpp	/^    raw_ostream &Out;$/;"	m	class:__anon9::PrintDbgInfo	file:
+PEClass	IPA/Andersens.cpp	/^    unsigned PEClass;$/;"	m	class:__anon13::Andersens	file:
+PEClass2Node	IPA/Andersens.cpp	/^    std::vector<int> PEClass2Node;$/;"	m	class:__anon13::Andersens	file:
+PENLEClass2Node	IPA/Andersens.cpp	/^    std::vector<int> PENLEClass2Node;$/;"	m	class:__anon13::Andersens	file:
+PairKeyInfo	IPA/Andersens.cpp	/^    struct PairKeyInfo {$/;"	s	class:__anon13::Andersens	file:
+PointedToBy	IPA/Andersens.cpp	/^      SparseBitVector<> *PointedToBy;$/;"	m	struct:__anon13::Andersens::Node	file:
+PointerEquivLabel	IPA/Andersens.cpp	/^      unsigned PointerEquivLabel;$/;"	m	struct:__anon13::Andersens::Node	file:
+PointerMayBeCaptured	CaptureTracking.cpp	/^bool llvm::PointerMayBeCaptured(const Value *V, bool ReturnCaptures) {$/;"	f	class:llvm
+PointerTracking	PointerTracking.cpp	/^PointerTracking::PointerTracking() : FunctionPass(&ID) {}$/;"	f	class:llvm::PointerTracking
+PointsTo	IPA/Andersens.cpp	/^      SparseBitVector<> *PointsTo;$/;"	m	struct:__anon13::Andersens::Node	file:
+PredEdges	IPA/Andersens.cpp	/^      SparseBitVector<> *PredEdges;$/;"	m	struct:__anon13::Andersens::Node	file:
+Print	SparsePropagation.cpp	/^void SparseSolver::Print(Function &F, std::ostream &OS) const {$/;"	f	class:SparseSolver
+PrintConstraint	IPA/Andersens.cpp	/^void Andersens::PrintConstraint(const Constraint &C) const {$/;"	f	class:Andersens
+PrintConstraints	IPA/Andersens.cpp	/^void Andersens::PrintConstraints() const {$/;"	f	class:Andersens
+PrintDbgInfo	DbgInfoPrinter.cpp	/^    PrintDbgInfo() : FunctionPass(&ID), Out(outs()) {}$/;"	f	class:__anon9::PrintDbgInfo
+PrintDbgInfo	DbgInfoPrinter.cpp	/^  class VISIBILITY_HIDDEN PrintDbgInfo : public FunctionPass {$/;"	c	namespace:__anon9	file:
+PrintLabels	IPA/Andersens.cpp	/^void Andersens::PrintLabels() const {$/;"	f	class:Andersens
+PrintLoopInfo	LoopDependenceAnalysis.cpp	/^static void PrintLoopInfo(raw_ostream &OS,$/;"	f	file:
+PrintLoopInfo	ScalarEvolution.cpp	/^static void PrintLoopInfo(raw_ostream &OS, ScalarEvolution *SE,$/;"	f	file:
+PrintModRefResults	AliasAnalysisEvaluator.cpp	/^PrintModRefResults(const char *Msg, bool P, Instruction *I, Value *Ptr,$/;"	f	file:
+PrintNode	IPA/Andersens.cpp	/^void Andersens::PrintNode(const Node *N) const {$/;"	f	class:Andersens
+PrintPercent	AliasAnalysisEvaluator.cpp	/^static void PrintPercent(unsigned Num, unsigned Sum) {$/;"	f	file:
+PrintPointsToGraph	IPA/Andersens.cpp	/^void Andersens::PrintPointsToGraph() const {$/;"	f	class:Andersens
+PrintResults	AliasAnalysisEvaluator.cpp	/^static void PrintResults(const char *Msg, bool P, const Value *V1, const Value *V2,$/;"	f	file:
+PrintValue	SparsePropagation.cpp	/^void AbstractLatticeFunction::PrintValue(LatticeVal V, std::ostream &OS) {$/;"	f	class:AbstractLatticeFunction
+ProfileEstimatorPass	ProfileEstimatorPass.cpp	/^    explicit ProfileEstimatorPass(const double execcount = 0)$/;"	f	class:__anon3::ProfileEstimatorPass
+ProfileEstimatorPass	ProfileEstimatorPass.cpp	/^  class VISIBILITY_HIDDEN ProfileEstimatorPass :$/;"	c	namespace:__anon3	file:
+ProfileEstimatorPassID	ProfileEstimatorPass.cpp	/^  const PassInfo *ProfileEstimatorPassID = &X;$/;"	v
+ProfileInfoLoader	ProfileInfoLoader.cpp	/^ProfileInfoLoader::ProfileInfoLoader(const char *ToolName,$/;"	f	class:ProfileInfoLoader
+PushDefUseChildren	ScalarEvolution.cpp	/^PushDefUseChildren(Instruction *I,$/;"	f	file:
+PushLoopPHIs	ScalarEvolution.cpp	/^PushLoopPHIs(const Loop *L, SmallVectorImpl<Instruction *> &Worklist) {$/;"	f	file:
+Q	IPA/Andersens.cpp	/^      std::priority_queue<WorkListElement> Q;$/;"	m	class:__anon13::Andersens::WorkList	file:
+QueryNode	IPA/Andersens.cpp	/^bool Andersens::QueryNode(unsigned Node) {$/;"	f	class:Andersens
+ReadProfilingBlock	ProfileInfoLoader.cpp	/^static void ReadProfilingBlock(const char *ToolName, FILE *F,$/;"	f	file:
+Ref	AliasAnalysisEvaluator.cpp	/^    unsigned NoModRef, Mod, Ref, ModRef;$/;"	m	class:__anon19::AAEval	file:
+RemoveCachedNonLocalPointerDependencies	MemoryDependenceAnalysis.cpp	/^RemoveCachedNonLocalPointerDependencies(ValueIsLoadPair P) {$/;"	f	class:MemoryDependenceAnalysis
+RemoveFromReverseMap	MemoryDependenceAnalysis.cpp	/^static void RemoveFromReverseMap(DenseMap<Instruction*, $/;"	f	file:
+ReturnNodes	IPA/Andersens.cpp	/^    DenseMap<Function*, unsigned> ReturnNodes;$/;"	m	class:__anon13::Andersens	file:
+RewriteConstraints	IPA/Andersens.cpp	/^void Andersens::RewriteConstraints() {$/;"	f	class:Andersens
+Root	IPA/CallGraph.cpp	/^  CallGraphNode *Root;$/;"	m	class:__anon12::BasicCallGraph	file:
+SCCStack	IPA/Andersens.cpp	/^    std::stack<unsigned> SCCStack;$/;"	m	class:__anon13::Andersens	file:
+SCEVCallbackVH	ScalarEvolution.cpp	/^ScalarEvolution::SCEVCallbackVH::SCEVCallbackVH(Value *V, ScalarEvolution *se)$/;"	f	class:ScalarEvolution::SCEVCallbackVH
+SCEVCastExpr	ScalarEvolution.cpp	/^SCEVCastExpr::SCEVCastExpr(const FoldingSetNodeID &ID,$/;"	f	class:SCEVCastExpr
+SCEVComplexityCompare	ScalarEvolution.cpp	/^    explicit SCEVComplexityCompare(LoopInfo *li) : LI(li) {}$/;"	f	class:__anon1::SCEVComplexityCompare
+SCEVComplexityCompare	ScalarEvolution.cpp	/^  class VISIBILITY_HIDDEN SCEVComplexityCompare {$/;"	c	namespace:__anon1	file:
+SCEVCouldNotCompute	ScalarEvolution.cpp	/^SCEVCouldNotCompute::SCEVCouldNotCompute() :$/;"	f	class:SCEVCouldNotCompute
+SCEVSignExtendExpr	ScalarEvolution.cpp	/^SCEVSignExtendExpr::SCEVSignExtendExpr(const FoldingSetNodeID &ID,$/;"	f	class:SCEVSignExtendExpr
+SCEVTruncateExpr	ScalarEvolution.cpp	/^SCEVTruncateExpr::SCEVTruncateExpr(const FoldingSetNodeID &ID,$/;"	f	class:SCEVTruncateExpr
+SCEVZeroExtendExpr	ScalarEvolution.cpp	/^SCEVZeroExtendExpr::SCEVZeroExtendExpr(const FoldingSetNodeID &ID,$/;"	f	class:SCEVZeroExtendExpr
+SDT	IPA/Andersens.cpp	/^    std::vector<int> SDT;$/;"	m	class:__anon13::Andersens	file:
+SDTActive	IPA/Andersens.cpp	/^    bool SDTActive;$/;"	m	class:__anon13::Andersens	file:
+ScalarEvolution	ScalarEvolution.cpp	/^ScalarEvolution::ScalarEvolution()$/;"	f	class:ScalarEvolution
+Search	IPA/Andersens.cpp	/^void Andersens::Search(unsigned Node) {$/;"	f	class:Andersens
+SelfRep	IPA/Andersens.cpp	/^static const unsigned SelfRep = (unsigned)-1;$/;"	v	file:
+Set2PEClass	IPA/Andersens.cpp	/^    BitVectorMap Set2PEClass;$/;"	m	class:__anon13::Andersens	file:
+SimplifyAddOperands	ScalarEvolutionExpander.cpp	/^static void SimplifyAddOperands(SmallVectorImpl<const SCEV *> &Ops,$/;"	f	file:
+Solve	SparsePropagation.cpp	/^void SparseSolver::Solve(Function &F) {$/;"	f	class:SparseSolver
+SolveConstraints	IPA/Andersens.cpp	/^void Andersens::SolveConstraints() {$/;"	f	class:Andersens
+SolveLinEquationWithOverflow	ScalarEvolution.cpp	/^static const SCEV *SolveLinEquationWithOverflow(const APInt &A, const APInt &B,$/;"	f	file:
+SolveQuadraticEquation	ScalarEvolution.cpp	/^SolveQuadraticEquation(const SCEVAddRecExpr *AddRec, ScalarEvolution &SE) {$/;"	f	file:
+SortNonLocalDepInfoCache	MemoryDependenceAnalysis.cpp	/^SortNonLocalDepInfoCache(MemoryDependenceAnalysis::NonLocalDepInfo &Cache,$/;"	f	file:
+SplitAddRecs	ScalarEvolutionExpander.cpp	/^static void SplitAddRecs(SmallVectorImpl<const SCEV *> &Ops,$/;"	f	file:
+Src	IPA/Andersens.cpp	/^      unsigned Src;$/;"	m	struct:__anon13::Andersens::Constraint	file:
+Stamp	IPA/Andersens.cpp	/^      void Stamp() {$/;"	f	struct:__anon13::Andersens::Node
+Store	IPA/Andersens.cpp	/^      enum ConstraintType { Copy, Load, Store, AddressOf } Type;$/;"	e	enum:__anon13::Andersens::Constraint::ConstraintType	file:
+StoredInHash	IPA/Andersens.cpp	/^      bool StoredInHash;$/;"	m	struct:__anon13::Andersens::Node	file:
+SymbolicallyEvaluateBinop	ConstantFolding.cpp	/^static Constant *SymbolicallyEvaluateBinop(unsigned Opc, Constant *Op0,$/;"	f	file:
+SymbolicallyEvaluateGEP	ConstantFolding.cpp	/^static Constant *SymbolicallyEvaluateGEP(Constant* const* Ops, unsigned NumOps,$/;"	f	file:
+Tarjan2DFS	IPA/Andersens.cpp	/^    std::map<unsigned, unsigned> Tarjan2DFS;$/;"	m	class:__anon13::Andersens	file:
+Tarjan2Deleted	IPA/Andersens.cpp	/^    std::map<unsigned, bool> Tarjan2Deleted;$/;"	m	class:__anon13::Andersens	file:
+Timestamp	IPA/Andersens.cpp	/^      unsigned Timestamp;$/;"	m	struct:__anon13::Andersens::Node	file:
+Timestamp	IPA/Andersens.cpp	/^      unsigned Timestamp;$/;"	m	struct:__anon13::Andersens::WorkListElement	file:
+Tracker	AliasSetTracker.cpp	/^    AliasSetTracker *Tracker;$/;"	m	class:__anon4::AliasSetPrinter	file:
+Type	IPA/Andersens.cpp	/^      enum ConstraintType { Copy, Load, Store, AddressOf } Type;$/;"	m	struct:__anon13::Andersens::Constraint	typeref:enum:__anon13::Andersens::Constraint::ConstraintType	file:
+UnderlyingObjectsAlias	LoopDependenceAnalysis.cpp	/^static AliasAnalysis::AliasResult UnderlyingObjectsAlias(AliasAnalysis *AA,$/;"	f	file:
+UniteNodes	IPA/Andersens.cpp	/^unsigned Andersens::UniteNodes(unsigned First, unsigned Second,$/;"	f	class:Andersens
+UnitePointerEquivalences	IPA/Andersens.cpp	/^void Andersens::UnitePointerEquivalences() {$/;"	f	class:Andersens
+UniversalSet	IPA/Andersens.cpp	/^      UniversalSet = 0,$/;"	e	enum:__anon13::Andersens::__anon14	file:
+Unvisited	IPA/Andersens.cpp	/^static const unsigned Unvisited = (unsigned)-1;$/;"	v	file:
+UpdateState	SparsePropagation.cpp	/^void SparseSolver::UpdateState(Instruction &Inst, LatticeVal V) {$/;"	f	class:SparseSolver
+VSSCCRep	IPA/Andersens.cpp	/^    std::vector<unsigned> VSSCCRep;$/;"	m	class:__anon13::Andersens	file:
+Val	IPA/Andersens.cpp	/^      Value *Val;$/;"	m	struct:__anon13::Andersens::Node	file:
+ValidDebugInfo	DebugInfo.cpp	/^bool DIDescriptor::ValidDebugInfo(Value *V, CodeGenOpt::Level OptLevel) {$/;"	f	class:DIDescriptor
+Vals	AliasDebugger.cpp	/^    std::set<const Value*> Vals;$/;"	m	class:__anon18::AliasDebugger	file:
+ValueNodes	IPA/Andersens.cpp	/^    DenseMap<Value*, unsigned> ValueNodes;$/;"	m	class:__anon13::Andersens	file:
+VarargNodes	IPA/Andersens.cpp	/^    DenseMap<Function*, unsigned> VarargNodes;$/;"	m	class:__anon13::Andersens	file:
+Verify	DebugInfo.cpp	/^bool DICompileUnit::Verify() const {$/;"	f	class:DICompileUnit
+Verify	DebugInfo.cpp	/^bool DICompositeType::Verify() const {$/;"	f	class:DICompositeType
+Verify	DebugInfo.cpp	/^bool DIGlobalVariable::Verify() const {$/;"	f	class:DIGlobalVariable
+Verify	DebugInfo.cpp	/^bool DISubprogram::Verify() const {$/;"	f	class:DISubprogram
+Verify	DebugInfo.cpp	/^bool DIType::Verify() const {$/;"	f	class:DIType
+Verify	DebugInfo.cpp	/^bool DIVariable::Verify() const {$/;"	f	class:DIVariable
+WorkList	IPA/Andersens.cpp	/^    class WorkList {$/;"	c	class:__anon13::Andersens	file:
+WorkListElement	IPA/Andersens.cpp	/^      WorkListElement(Node* n, unsigned t) : node(n), Timestamp(t) {}$/;"	f	struct:__anon13::Andersens::WorkListElement
+WorkListElement	IPA/Andersens.cpp	/^    struct WorkListElement {$/;"	s	class:__anon13::Andersens	file:
+add	AliasSetTracker.cpp	/^bool AliasSetTracker::add(CallSite CS) {$/;"	f	class:AliasSetTracker
+add	AliasSetTracker.cpp	/^bool AliasSetTracker::add(FreeInst *FI) {$/;"	f	class:AliasSetTracker
+add	AliasSetTracker.cpp	/^bool AliasSetTracker::add(Instruction *I) {$/;"	f	class:AliasSetTracker
+add	AliasSetTracker.cpp	/^bool AliasSetTracker::add(LoadInst *LI) {$/;"	f	class:AliasSetTracker
+add	AliasSetTracker.cpp	/^bool AliasSetTracker::add(StoreInst *SI) {$/;"	f	class:AliasSetTracker
+add	AliasSetTracker.cpp	/^bool AliasSetTracker::add(VAArgInst *VAAI) {$/;"	f	class:AliasSetTracker
+add	AliasSetTracker.cpp	/^bool AliasSetTracker::add(Value *Ptr, unsigned Size) {$/;"	f	class:AliasSetTracker
+add	AliasSetTracker.cpp	/^void AliasSetTracker::add(BasicBlock &BB) {$/;"	f	class:AliasSetTracker
+add	AliasSetTracker.cpp	/^void AliasSetTracker::add(const AliasSetTracker &AST) {$/;"	f	class:AliasSetTracker
+addCallSite	AliasSetTracker.cpp	/^void AliasSet::addCallSite(CallSite CS, AliasAnalysis &AA) {$/;"	f	class:AliasSet
+addCompileUnit	DebugInfo.cpp	/^bool DebugInfoFinder::addCompileUnit(DICompileUnit CU) {$/;"	f	class:DebugInfoFinder
+addGlobalVariable	DebugInfo.cpp	/^bool DebugInfoFinder::addGlobalVariable(DIGlobalVariable DIG) {$/;"	f	class:DebugInfoFinder
+addIntervalToPartition	IntervalPartition.cpp	/^void IntervalPartition::addIntervalToPartition(Interval *I) {$/;"	f	class:IntervalPartition
+addLoopIntoQueue	LoopPass.cpp	/^static void addLoopIntoQueue(Loop *L, std::deque<Loop *> &LQ) {$/;"	f	file:
+addPointer	AliasSetTracker.cpp	/^void AliasSet::addPointer(AliasSetTracker &AST, PointerRec &Entry,$/;"	f	class:AliasSet
+addPointerTo	IPA/Andersens.cpp	/^      bool addPointerTo(unsigned Node) {$/;"	f	struct:__anon13::Andersens::Node
+addSubprogram	DebugInfo.cpp	/^bool DebugInfoFinder::addSubprogram(DISubprogram SP) {$/;"	f	class:DebugInfoFinder
+addToCallGraph	IPA/CallGraph.cpp	/^  void addToCallGraph(Function *F) {$/;"	f	class:__anon12::BasicCallGraph	file:
+addType	DebugInfo.cpp	/^bool DebugInfoFinder::addType(DIType DT) {$/;"	f	class:DebugInfoFinder
+alias	AliasAnalysis.cpp	/^AliasAnalysis::alias(const Value *V1, unsigned V1Size,$/;"	f	class:AliasAnalysis
+alias	AliasAnalysisCounter.cpp	/^AliasAnalysisCounter::alias(const Value *V1, unsigned V1Size,$/;"	f	class:AliasAnalysisCounter
+alias	AliasDebugger.cpp	/^    AliasResult alias(const Value *V1, unsigned V1Size,$/;"	f	class:__anon18::AliasDebugger
+alias	BasicAliasAnalysis.cpp	/^    virtual AliasResult alias(const Value *V1, unsigned V1Size,$/;"	f	struct:__anon16::NoAA
+alias	BasicAliasAnalysis.cpp	/^BasicAliasAnalysis::alias(const Value *V1, unsigned V1Size,$/;"	f	class:BasicAliasAnalysis
+alias	IPA/Andersens.cpp	/^AliasAnalysis::AliasResult Andersens::alias(const Value *V1, unsigned V1Size,$/;"	f	class:Andersens
+alias	IPA/GlobalsModRef.cpp	/^GlobalsModRef::alias(const Value *V1, unsigned V1Size,$/;"	f	class:GlobalsModRef
+aliasesCallSite	AliasSetTracker.cpp	/^bool AliasSet::aliasesCallSite(CallSite CS, AliasAnalysis &AA) const {$/;"	f	class:AliasSet
+aliasesPointer	AliasSetTracker.cpp	/^bool AliasSet::aliasesPointer(const Value *Ptr, unsigned Size,$/;"	f	class:AliasSet
+allUsesReplacedWith	ScalarEvolution.cpp	/^void ScalarEvolution::SCEVCallbackVH::allUsesReplacedWith(Value *) {$/;"	f	class:ScalarEvolution::SCEVCallbackVH
+analyseMIV	LoopDependenceAnalysis.cpp	/^LoopDependenceAnalysis::analyseMIV(const SCEV *A,$/;"	f	class:LoopDependenceAnalysis
+analysePair	LoopDependenceAnalysis.cpp	/^LoopDependenceAnalysis::analysePair(DependencePair *P) const {$/;"	f	class:LoopDependenceAnalysis
+analyseSIV	LoopDependenceAnalysis.cpp	/^LoopDependenceAnalysis::analyseSIV(const SCEV *A,$/;"	f	class:LoopDependenceAnalysis
+analyseSubscript	LoopDependenceAnalysis.cpp	/^LoopDependenceAnalysis::analyseSubscript(const SCEV *A,$/;"	f	class:LoopDependenceAnalysis
+analyseZIV	LoopDependenceAnalysis.cpp	/^LoopDependenceAnalysis::analyseZIV(const SCEV *A,$/;"	f	class:LoopDependenceAnalysis
+assignPassManager	IPA/CallGraphSCCPass.cpp	/^void CallGraphSCCPass::assignPassManager(PMStack &PMS,$/;"	f	class:CallGraphSCCPass
+assignPassManager	LoopPass.cpp	/^void LoopPass::assignPassManager(PMStack &PMS,$/;"	f	class:LoopPass
+calculate	PostDominators.cpp	/^PostDominanceFrontier::calculate(const PostDominatorTree &DT,$/;"	f	class:PostDominanceFrontier
+canBasicBlockModify	AliasAnalysis.cpp	/^bool AliasAnalysis::canBasicBlockModify(const BasicBlock &BB,$/;"	f	class:AliasAnalysis
+canConstantFoldCallTo	ConstantFolding.cpp	/^llvm::canConstantFoldCallTo(const Function *F) {$/;"	f	class:llvm
+canInstructionRangeModify	AliasAnalysis.cpp	/^bool AliasAnalysis::canInstructionRangeModify(const Instruction &I1,$/;"	f	class:AliasAnalysis
+changeFunction	IPA/CallGraph.cpp	/^void CallGraph::changeFunction(Function *OldF, Function *NewF) {$/;"	f	class:CallGraph
+checkLimits	PointerTracking.cpp	/^enum SolverResult PointerTracking::checkLimits(const SCEV *Offset,$/;"	f	class:llvm::PointerTracking
+classof	ScalarEvolution.cpp	/^bool SCEVCouldNotCompute::classof(const SCEV *S) {$/;"	f	class:SCEVCouldNotCompute
+clear	AliasSetTracker.cpp	/^void AliasSetTracker::clear() {$/;"	f	class:AliasSetTracker
+cloneBasicBlockSimpleAnalysis	LoopPass.cpp	/^void LPPassManager::cloneBasicBlockSimpleAnalysis(BasicBlock *From, $/;"	f	class:LPPassManager
+compute	LiveValues.cpp	/^LiveValues::Memo &LiveValues::compute(const Value *V) {$/;"	f	class:LiveValues
+compute	LoopVR.cpp	/^ConstantRange LoopVR::compute(Value *V) {$/;"	f	class:LoopVR
+computeAllocationCount	PointerTracking.cpp	/^const SCEV *PointerTracking::computeAllocationCount(Value *P,$/;"	f	class:llvm::PointerTracking
+computeAllocationCountForType	PointerTracking.cpp	/^const SCEV *PointerTracking::computeAllocationCountForType(Value *P,$/;"	f	class:llvm::PointerTracking
+containsAddRecFromDifferentLoop	IVUsers.cpp	/^static bool containsAddRecFromDifferentLoop(const SCEV *S, Loop *L) {$/;"	f	file:
+containsPointer	AliasSetTracker.cpp	/^bool AliasSetTracker::containsPointer(Value *Ptr, unsigned Size) const {$/;"	f	class:AliasSetTracker
+copyValue	AliasAnalysis.cpp	/^void AliasAnalysis::copyValue(Value *From, Value *To) {$/;"	f	class:AliasAnalysis
+copyValue	AliasDebugger.cpp	/^    virtual void copyValue(Value *From, Value *To) {$/;"	f	class:__anon18::AliasDebugger
+copyValue	AliasSetTracker.cpp	/^void AliasSetTracker::copyValue(Value *From, Value *To) {$/;"	f	class:AliasSetTracker
+copyValue	BasicAliasAnalysis.cpp	/^    virtual void copyValue(Value *From, Value *To) {}$/;"	f	struct:__anon16::NoAA
+copyValue	IPA/Andersens.cpp	/^    virtual void copyValue(Value *From, Value *To) {$/;"	f	class:__anon13::Andersens
+copyValue	IPA/GlobalsModRef.cpp	/^void GlobalsModRef::copyValue(Value *From, Value *To) {$/;"	f	class:GlobalsModRef
+createAAEvalPass	AliasAnalysisEvaluator.cpp	/^FunctionPass *llvm::createAAEvalPass() { return new AAEval(); }$/;"	f	class:llvm
+createAliasAnalysisCounterPass	AliasAnalysisCounter.cpp	/^ModulePass *llvm::createAliasAnalysisCounterPass() {$/;"	f	class:llvm
+createAliasDebugger	AliasDebugger.cpp	/^Pass *llvm::createAliasDebugger() { return new AliasDebugger(); }$/;"	f	class:llvm
+createAndersensPass	IPA/Andersens.cpp	/^ModulePass *llvm::createAndersensPass() { return new Andersens(); }$/;"	f	class:llvm
+createBasicAliasAnalysisPass	BasicAliasAnalysis.cpp	/^ImmutablePass *llvm::createBasicAliasAnalysisPass() {$/;"	f	class:llvm
+createCFGOnlyPrinterPass	CFGPrinter.cpp	/^FunctionPass *llvm::createCFGOnlyPrinterPass () {$/;"	f	class:llvm
+createCFGPrinterPass	CFGPrinter.cpp	/^FunctionPass *llvm::createCFGPrinterPass () {$/;"	f	class:llvm
+createDbgInfoPrinterPass	DbgInfoPrinter.cpp	/^FunctionPass *llvm::createDbgInfoPrinterPass() { return new PrintDbgInfo(); }$/;"	f	class:llvm
+createGlobalsModRefPass	IPA/GlobalsModRef.cpp	/^Pass *llvm::createGlobalsModRefPass() { return new GlobalsModRef(); }$/;"	f	class:llvm
+createIVUsersPass	IVUsers.cpp	/^Pass *llvm::createIVUsersPass() {$/;"	f	class:llvm
+createInstCountPass	InstCount.cpp	/^FunctionPass *llvm::createInstCountPass() { return new InstCount(); }$/;"	f	class:llvm
+createLibCallAliasAnalysisPass	LibCallAliasAnalysis.cpp	/^FunctionPass *llvm::createLibCallAliasAnalysisPass(LibCallInfo *LCI) {$/;"	f	class:llvm
+createLiveValuesPass	LiveValues.cpp	/^FunctionPass *llvm::createLiveValuesPass() { return new LiveValues(); }$/;"	f	class:llvm
+createLoopDependenceAnalysisPass	LoopDependenceAnalysis.cpp	/^LoopPass *llvm::createLoopDependenceAnalysisPass() {$/;"	f	class:llvm
+createNoAAPass	BasicAliasAnalysis.cpp	/^ImmutablePass *llvm::createNoAAPass() { return new NoAA(); }$/;"	f	class:llvm
+createNoProfileInfoPass	ProfileInfo.cpp	/^ImmutablePass *llvm::createNoProfileInfoPass() { return new NoProfileInfo(); }$/;"	f	class:llvm
+createNodeForGEP	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::createNodeForGEP(Operator *GEP) {$/;"	f	class:ScalarEvolution
+createNodeForPHI	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::createNodeForPHI(PHINode *PN) {$/;"	f	class:ScalarEvolution
+createPostDomFrontier	PostDominators.cpp	/^FunctionPass* llvm::createPostDomFrontier() {$/;"	f	class:llvm
+createPostDomTree	PostDominators.cpp	/^FunctionPass* llvm::createPostDomTree() {$/;"	f	class:llvm
+createProfileEstimatorPass	ProfileEstimatorPass.cpp	/^  FunctionPass *createProfileEstimatorPass() {$/;"	f	namespace:llvm
+createProfileEstimatorPass	ProfileEstimatorPass.cpp	/^  Pass *createProfileEstimatorPass(const unsigned execcount) {$/;"	f	namespace:llvm
+createProfileLoaderPass	ProfileInfoLoaderPass.cpp	/^ModulePass *llvm::createProfileLoaderPass() { return new LoaderPass(); }$/;"	f	class:llvm
+createProfileLoaderPass	ProfileInfoLoaderPass.cpp	/^Pass *llvm::createProfileLoaderPass(const std::string &Filename) {$/;"	f	class:llvm
+createSCEV	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::createSCEV(Value *V) {$/;"	f	class:ScalarEvolution
+deleteLoopFromQueue	LoopPass.cpp	/^void LPPassManager::deleteLoopFromQueue(Loop *L) {$/;"	f	class:LPPassManager
+deleteSimpleAnalysisValue	LoopPass.cpp	/^void LPPassManager::deleteSimpleAnalysisValue(Value *V, Loop *L) {$/;"	f	class:LPPassManager
+deleteValue	AliasAnalysis.cpp	/^void AliasAnalysis::deleteValue(Value *V) {$/;"	f	class:AliasAnalysis
+deleteValue	AliasDebugger.cpp	/^    virtual void deleteValue(Value *V) {$/;"	f	class:__anon18::AliasDebugger
+deleteValue	AliasSetTracker.cpp	/^void AliasSetTracker::deleteValue(Value *PtrVal) {$/;"	f	class:AliasSetTracker
+deleteValue	BasicAliasAnalysis.cpp	/^    virtual void deleteValue(Value *V) {}$/;"	f	struct:__anon16::NoAA
+deleteValue	IPA/Andersens.cpp	/^    virtual void deleteValue(Value *V) {$/;"	f	class:__anon13::Andersens
+deleteValue	IPA/GlobalsModRef.cpp	/^void GlobalsModRef::deleteValue(Value *V) {$/;"	f	class:GlobalsModRef
+deleted	AliasSetTracker.cpp	/^void AliasSetTracker::ASTCallbackVH::deleted() {$/;"	f	class:AliasSetTracker::ASTCallbackVH
+deleted	IVUsers.cpp	/^void IVStrideUse::deleted() {$/;"	f	class:IVStrideUse
+deleted	ScalarEvolution.cpp	/^void ScalarEvolution::SCEVCallbackVH::deleted() {$/;"	f	class:ScalarEvolution::SCEVCallbackVH
+depends	LoopDependenceAnalysis.cpp	/^bool LoopDependenceAnalysis::depends(Value *A, Value *B) {$/;"	f	class:LoopDependenceAnalysis
+describes	DebugInfo.cpp	/^bool DISubprogram::describes(const Function *F) {$/;"	f	class:DISubprogram
+destroy	IPA/CallGraph.cpp	/^  virtual void destroy() {$/;"	f	class:__anon12::BasicCallGraph	file:
+destroy	IPA/CallGraph.cpp	/^void CallGraph::destroy() {$/;"	f	class:CallGraph
+doFinalization	AliasAnalysisEvaluator.cpp	/^bool AAEval::doFinalization(Module &M) {$/;"	f	class:AAEval
+doFinalization	IPA/CallGraphSCCPass.cpp	/^bool CGPassManager::doFinalization(CallGraph &CG) {$/;"	f	class:CGPassManager
+doInitialization	AliasAnalysisEvaluator.cpp	/^    bool doInitialization(Module &M) {$/;"	f	class:__anon19::AAEval
+doInitialization	IPA/CallGraphSCCPass.cpp	/^bool CGPassManager::doInitialization(CallGraph &CG) {$/;"	f	class:CGPassManager
+doInitialization	PointerTracking.cpp	/^bool PointerTracking::doInitialization(Module &M) {$/;"	f	class:llvm::PointerTracking
+doesNotAccessMemory	AliasAnalysisCounter.cpp	/^    bool doesNotAccessMemory(CallSite CS) {$/;"	f	class:__anon10::AliasAnalysisCounter
+doesNotAccessMemory	AliasAnalysisCounter.cpp	/^    bool doesNotAccessMemory(Function *F) {$/;"	f	class:__anon10::AliasAnalysisCounter
+dominates	ScalarEvolution.cpp	/^bool SCEVCastExpr::dominates(BasicBlock *BB, DominatorTree *DT) const {$/;"	f	class:SCEVCastExpr
+dominates	ScalarEvolution.cpp	/^bool SCEVNAryExpr::dominates(BasicBlock *BB, DominatorTree *DT) const {$/;"	f	class:SCEVNAryExpr
+dominates	ScalarEvolution.cpp	/^bool SCEVUDivExpr::dominates(BasicBlock *BB, DominatorTree *DT) const {$/;"	f	class:SCEVUDivExpr
+dominates	ScalarEvolution.cpp	/^bool SCEVUnknown::dominates(BasicBlock *BB, DominatorTree *DT) const {$/;"	f	class:SCEVUnknown
+dump	AliasSetTracker.cpp	/^void AliasSet::dump() const { print (cerr); }$/;"	f	class:AliasSet
+dump	AliasSetTracker.cpp	/^void AliasSetTracker::dump() const { print(cerr); }$/;"	f	class:AliasSetTracker
+dump	DebugInfo.cpp	/^void DIBasicType::dump() const {$/;"	f	class:DIBasicType
+dump	DebugInfo.cpp	/^void DICompileUnit::dump() const {$/;"	f	class:DICompileUnit
+dump	DebugInfo.cpp	/^void DICompositeType::dump() const {$/;"	f	class:DICompositeType
+dump	DebugInfo.cpp	/^void DIDerivedType::dump() const {$/;"	f	class:DIDerivedType
+dump	DebugInfo.cpp	/^void DIDescriptor::dump() const {$/;"	f	class:DIDescriptor
+dump	DebugInfo.cpp	/^void DIGlobal::dump() const {$/;"	f	class:DIGlobal
+dump	DebugInfo.cpp	/^void DIGlobalVariable::dump() const {$/;"	f	class:DIGlobalVariable
+dump	DebugInfo.cpp	/^void DISubprogram::dump() const {$/;"	f	class:DISubprogram
+dump	DebugInfo.cpp	/^void DIType::dump() const {$/;"	f	class:DIType
+dump	DebugInfo.cpp	/^void DIVariable::dump() const {$/;"	f	class:DIVariable
+dump	IPA/CallGraph.cpp	/^  inline void dump() const {$/;"	f	class:__anon12::BasicCallGraph
+dump	IPA/CallGraph.cpp	/^void CallGraph::dump() const {$/;"	f	class:CallGraph
+dump	IPA/CallGraph.cpp	/^void CallGraphNode::dump() const { print(cerr); }$/;"	f	class:CallGraphNode
+dump	IVUsers.cpp	/^void IVUsers::dump() const {$/;"	f	class:IVUsers
+dump	ScalarEvolution.cpp	/^void SCEV::dump() const {$/;"	f	class:SCEV
+dump	Trace.cpp	/^void Trace::dump() const {$/;"	f	class:Trace
+dumpPassStructure	IPA/CallGraphSCCPass.cpp	/^  void dumpPassStructure(unsigned Offset) {$/;"	f	class:__anon15::CGPassManager
+dumpPassStructure	LoopPass.cpp	/^void LPPassManager::dumpPassStructure(unsigned Offset) {$/;"	f	class:LPPassManager
+empty	IPA/Andersens.cpp	/^      bool empty() {$/;"	f	class:__anon13::Andersens::WorkList
+evaluateAtIteration	ScalarEvolution.cpp	/^const SCEV *SCEVAddRecExpr::evaluateAtIteration(const SCEV *It,$/;"	f	class:SCEVAddRecExpr
+expand	ScalarEvolutionExpander.cpp	/^Value *SCEVExpander::expand(const SCEV *S) {$/;"	f	class:SCEVExpander
+expandAddToGEP	ScalarEvolutionExpander.cpp	/^Value *SCEVExpander::expandAddToGEP(const SCEV *const *op_begin,$/;"	f	class:SCEVExpander
+expandCodeFor	ScalarEvolutionExpander.cpp	/^Value *SCEVExpander::expandCodeFor(const SCEV *SH, const Type *Ty) {$/;"	f	class:SCEVExpander
+findAliasSetForCallSite	AliasSetTracker.cpp	/^AliasSet *AliasSetTracker::findAliasSetForCallSite(CallSite CS) {$/;"	f	class:AliasSetTracker
+findAliasSetForPointer	AliasSetTracker.cpp	/^AliasSet *AliasSetTracker::findAliasSetForPointer(const Value *Ptr,$/;"	f	class:AliasSetTracker
+findBBStopPoint	DebugInfo.cpp	/^  const DbgStopPointInst *findBBStopPoint(const BasicBlock *BB) {$/;"	f	namespace:llvm
+findDbgDeclare	DebugInfo.cpp	/^  const DbgDeclareInst *findDbgDeclare(const Value *V, bool stripCasts) {$/;"	f	namespace:llvm
+findDbgGlobalDeclare	DebugInfo.cpp	/^  Value *findDbgGlobalDeclare(GlobalVariable *V) {$/;"	f	namespace:llvm
+findOrInsertDependencePair	LoopDependenceAnalysis.cpp	/^bool LoopDependenceAnalysis::findOrInsertDependencePair(Value *A,$/;"	f	class:LoopDependenceAnalysis
+findStopPoint	DebugInfo.cpp	/^  const DbgStopPointInst *findStopPoint(const Instruction *Inst) {$/;"	f	namespace:llvm
+forgetLoopBackedgeTakenCount	ScalarEvolution.cpp	/^void ScalarEvolution::forgetLoopBackedgeTakenCount(const Loop *L) {$/;"	f	class:ScalarEvolution
+get	LoopVR.cpp	/^ConstantRange LoopVR::get(Value *V) {$/;"	f	class:LoopVR
+getAddExpr	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getAddExpr(SmallVectorImpl<const SCEV *> &Ops) {$/;"	f	class:ScalarEvolution
+getAddRecExpr	ScalarEvolution.cpp	/^ScalarEvolution::getAddRecExpr(SmallVectorImpl<const SCEV *> &Operands,$/;"	f	class:ScalarEvolution
+getAddRecExpr	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getAddRecExpr(const SCEV *Start,$/;"	f	class:ScalarEvolution
+getAliasSetForPointer	AliasSetTracker.cpp	/^AliasSet &AliasSetTracker::getAliasSetForPointer(Value *Pointer, unsigned Size,$/;"	f	class:AliasSetTracker
+getAllocSizeExpr	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getAllocSizeExpr(const Type *AllocTy) {$/;"	f	class:ScalarEvolution
+getAllocationElementCount	PointerTracking.cpp	/^const SCEV *PointerTracking::getAllocationElementCount(Value *V) const {$/;"	f	class:llvm::PointerTracking
+getAllocationSizeInBytes	PointerTracking.cpp	/^const SCEV *PointerTracking::getAllocationSizeInBytes(Value *V) const {$/;"	f	class:llvm::PointerTracking
+getAnalysisUsage	AliasAnalysis.cpp	/^void AliasAnalysis::getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:AliasAnalysis
+getAnalysisUsage	AliasAnalysisCounter.cpp	/^    virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:__anon10::AliasAnalysisCounter
+getAnalysisUsage	AliasAnalysisEvaluator.cpp	/^    virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:__anon19::AAEval
+getAnalysisUsage	AliasDebugger.cpp	/^    virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:__anon18::AliasDebugger
+getAnalysisUsage	AliasSetTracker.cpp	/^    virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:__anon4::AliasSetPrinter
+getAnalysisUsage	BasicAliasAnalysis.cpp	/^    virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	struct:__anon16::NoAA
+getAnalysisUsage	CFGPrinter.cpp	/^    virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	struct:__anon5::CFGViewer
+getAnalysisUsage	CFGPrinter.cpp	/^    virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	struct:__anon6::CFGOnlyViewer
+getAnalysisUsage	CFGPrinter.cpp	/^    virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	struct:__anon7::CFGPrinter
+getAnalysisUsage	CFGPrinter.cpp	/^    virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	struct:__anon8::CFGOnlyPrinter
+getAnalysisUsage	DbgInfoPrinter.cpp	/^    virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:__anon9::PrintDbgInfo
+getAnalysisUsage	IPA/Andersens.cpp	/^    virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:__anon13::Andersens
+getAnalysisUsage	IPA/CallGraph.cpp	/^  virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:__anon12::BasicCallGraph
+getAnalysisUsage	IPA/CallGraphSCCPass.cpp	/^  void getAnalysisUsage(AnalysisUsage &Info) const {$/;"	f	class:__anon15::CGPassManager
+getAnalysisUsage	IPA/CallGraphSCCPass.cpp	/^void CallGraphSCCPass::getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:CallGraphSCCPass
+getAnalysisUsage	IPA/GlobalsModRef.cpp	/^    virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:__anon11::GlobalsModRef
+getAnalysisUsage	IVUsers.cpp	/^void IVUsers::getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:IVUsers
+getAnalysisUsage	InstCount.cpp	/^    virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:__anon22::InstCount
+getAnalysisUsage	LibCallAliasAnalysis.cpp	/^void LibCallAliasAnalysis::getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:LibCallAliasAnalysis
+getAnalysisUsage	LiveValues.cpp	/^void LiveValues::getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:LiveValues
+getAnalysisUsage	LoopDependenceAnalysis.cpp	/^void LoopDependenceAnalysis::getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:LoopDependenceAnalysis
+getAnalysisUsage	LoopInfo.cpp	/^void LoopInfo::getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:LoopInfo
+getAnalysisUsage	LoopPass.cpp	/^void LPPassManager::getAnalysisUsage(AnalysisUsage &Info) const {$/;"	f	class:LPPassManager
+getAnalysisUsage	LoopVR.cpp	/^void LoopVR::getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:LoopVR
+getAnalysisUsage	MemoryDependenceAnalysis.cpp	/^void MemoryDependenceAnalysis::getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:MemoryDependenceAnalysis
+getAnalysisUsage	PointerTracking.cpp	/^void PointerTracking::getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:llvm::PointerTracking
+getAnalysisUsage	ProfileEstimatorPass.cpp	/^    virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:__anon3::ProfileEstimatorPass
+getAnalysisUsage	ProfileInfoLoaderPass.cpp	/^    virtual void getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:__anon20::LoaderPass
+getAnalysisUsage	ScalarEvolution.cpp	/^void ScalarEvolution::getAnalysisUsage(AnalysisUsage &AU) const {$/;"	f	class:ScalarEvolution
+getAnyExtendExpr	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getAnyExtendExpr(const SCEV *Op,$/;"	f	class:ScalarEvolution
+getArgumentAccesses	BasicAliasAnalysis.cpp	/^    virtual void getArgumentAccesses(Function *F, CallSite CS,$/;"	f	struct:__anon16::NoAA
+getBECount	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getBECount(const SCEV *Start,$/;"	f	class:ScalarEvolution
+getBackedgeTakenCount	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getBackedgeTakenCount(const Loop *L) {$/;"	f	class:ScalarEvolution
+getBackedgeTakenInfo	ScalarEvolution.cpp	/^ScalarEvolution::getBackedgeTakenInfo(const Loop *L) {$/;"	f	class:ScalarEvolution
+getCallSiteDependencyFrom	MemoryDependenceAnalysis.cpp	/^getCallSiteDependencyFrom(CallSite CS, bool isReadOnlyCall,$/;"	f	class:MemoryDependenceAnalysis
+getCallsExternalNode	IPA/CallGraph.cpp	/^  CallGraphNode* getCallsExternalNode()   const { return CallsExternalNode; }$/;"	f	class:__anon12::BasicCallGraph
+getCanonicalInductionVariable	LoopInfo.cpp	/^PHINode *Loop::getCanonicalInductionVariable() const {$/;"	f	class:Loop
+getCanonicalInductionVariableIncrement	LoopInfo.cpp	/^Instruction *Loop::getCanonicalInductionVariableIncrement() const {$/;"	f	class:Loop
+getCastToEmpty	DebugInfo.cpp	/^Constant *DIFactory::getCastToEmpty(DIDescriptor D) {$/;"	f	class:DIFactory
+getConstant	ScalarEvolution.cpp	/^ScalarEvolution::getConstant(const Type *Ty, uint64_t V, bool isSigned) {$/;"	f	class:ScalarEvolution
+getConstant	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getConstant(ConstantInt *V) {$/;"	f	class:ScalarEvolution
+getConstant	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getConstant(const APInt& Val) {$/;"	f	class:ScalarEvolution
+getConstantEvolutionLoopExitValue	ScalarEvolution.cpp	/^ScalarEvolution::getConstantEvolutionLoopExitValue(PHINode *PN,$/;"	f	class:ScalarEvolution
+getConstantEvolvingPHI	ScalarEvolution.cpp	/^static PHINode *getConstantEvolvingPHI(Value *V, const Loop *L) {$/;"	f	file:
+getContainedPass	IPA/CallGraphSCCPass.cpp	/^  Pass *getContainedPass(unsigned N) {$/;"	f	class:__anon15::CGPassManager
+getCouldNotCompute	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getCouldNotCompute() {$/;"	f	class:ScalarEvolution
+getDependency	MemoryDependenceAnalysis.cpp	/^MemDepResult MemoryDependenceAnalysis::getDependency(Instruction *QueryInst) {$/;"	f	class:MemoryDependenceAnalysis
+getDescriptorField	DebugInfo.cpp	/^DIDescriptor DIDescriptor::getDescriptorField(unsigned Elt) const {$/;"	f	class:DIDescriptor
+getEdgeSourceLabel	CFGPrinter.cpp	/^  static std::string getEdgeSourceLabel(const BasicBlock *Node,$/;"	f	struct:llvm::DOTGraphTraits
+getEffectiveSCEVType	ScalarEvolution.cpp	/^const Type *ScalarEvolution::getEffectiveSCEVType(const Type *Ty) const {$/;"	f	class:ScalarEvolution
+getEmptyKey	IPA/Andersens.cpp	/^      static inline Constraint getEmptyKey() {$/;"	f	struct:__anon13::Andersens::ConstraintKeyInfo
+getEmptyKey	IPA/Andersens.cpp	/^      static inline std::pair<unsigned, unsigned> getEmptyKey() {$/;"	f	struct:__anon13::Andersens::PairKeyInfo
+getEmptyKey	IPA/Andersens.cpp	/^    static inline SparseBitVector<> *getEmptyKey() {$/;"	f	struct:__anon13::BitmapKeyInfo
+getExecutionCount	ProfileInfo.cpp	/^double ProfileInfo::getExecutionCount(const BasicBlock *BB) {$/;"	f	class:ProfileInfo
+getExecutionCount	ProfileInfo.cpp	/^double ProfileInfo::getExecutionCount(const Function *F) {$/;"	f	class:ProfileInfo
+getExternalCallingNode	IPA/CallGraph.cpp	/^  CallGraphNode* getExternalCallingNode() const { return ExternalCallingNode; }$/;"	f	class:__anon12::BasicCallGraph
+getFeasibleSuccessors	SparsePropagation.cpp	/^void SparseSolver::getFeasibleSuccessors(TerminatorInst &TI,$/;"	f	class:SparseSolver
+getFieldOffsetExpr	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getFieldOffsetExpr(const StructType *STy,$/;"	f	class:ScalarEvolution
+getFunction	Trace.cpp	/^Function *Trace::getFunction() const {$/;"	f	class:Trace
+getFunctionInfo	IPA/GlobalsModRef.cpp	/^    FunctionRecord *getFunctionInfo(Function *F) {$/;"	f	class:__anon11::GlobalsModRef	file:
+getFunctionInfo	LibCallSemantics.cpp	/^const LibCallFunctionInfo *LibCallInfo::getFunctionInfo(Function *F) const {$/;"	f	class:LibCallInfo
+getGlobalVariableField	DebugInfo.cpp	/^GlobalVariable *DIDescriptor::getGlobalVariableField(unsigned Elt) const {$/;"	f	class:DIDescriptor
+getGraphName	CFGPrinter.cpp	/^  static std::string getGraphName(const Function *F) {$/;"	f	struct:llvm::DOTGraphTraits
+getHashValue	IPA/Andersens.cpp	/^      static unsigned getHashValue(const Constraint &C) {$/;"	f	struct:__anon13::Andersens::ConstraintKeyInfo
+getHashValue	IPA/Andersens.cpp	/^      static unsigned getHashValue(const std::pair<unsigned, unsigned> &P) {$/;"	f	struct:__anon13::Andersens::PairKeyInfo
+getHashValue	IPA/Andersens.cpp	/^    static unsigned getHashValue(const SparseBitVector<> *bitmap) {$/;"	f	struct:__anon13::BitmapKeyInfo
+getImmediateDominator	LiveValues.cpp	/^static const BasicBlock *getImmediateDominator(const BasicBlock *BB,$/;"	f	file:
+getInfoForGlobal	IPA/GlobalsModRef.cpp	/^    unsigned getInfoForGlobal(GlobalValue *GV) const {$/;"	f	struct:__anon11::FunctionRecord
+getIntegerSCEV	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getIntegerSCEV(int Val, const Type *Ty) {$/;"	f	class:ScalarEvolution
+getLocationInfo	DebugInfo.cpp	/^  bool getLocationInfo(const Value *V, std::string &DisplayName,$/;"	f	namespace:llvm
+getLocationInfo	LibCallSemantics.cpp	/^const LibCallLocationInfo &LibCallInfo::getLocationInfo(unsigned LocID) const {$/;"	f	class:LibCallInfo
+getLoopPredecessor	ScalarEvolution.cpp	/^BasicBlock *ScalarEvolution::getLoopPredecessor(const Loop *L) {$/;"	f	class:ScalarEvolution
+getLoops	LoopDependenceAnalysis.cpp	/^void LoopDependenceAnalysis::getLoops(const SCEV *S,$/;"	f	class:LoopDependenceAnalysis
+getMap	LibCallSemantics.cpp	/^static StringMap<const LibCallFunctionInfo*> *getMap(void *Ptr) {$/;"	f	file:
+getMaxBackedgeTakenCount	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getMaxBackedgeTakenCount(const Loop *L) {$/;"	f	class:ScalarEvolution
+getMemo	LiveValues.cpp	/^LiveValues::Memo &LiveValues::getMemo(const Value *V) {$/;"	f	class:LiveValues
+getMinusSCEV	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getMinusSCEV(const SCEV *LHS,$/;"	f	class:ScalarEvolution
+getModRefBehavior	AliasAnalysis.cpp	/^AliasAnalysis::getModRefBehavior(CallSite CS,$/;"	f	class:AliasAnalysis
+getModRefBehavior	AliasAnalysis.cpp	/^AliasAnalysis::getModRefBehavior(Function *F,$/;"	f	class:AliasAnalysis
+getModRefBehavior	IPA/GlobalsModRef.cpp	/^    ModRefBehavior getModRefBehavior(CallSite CS,$/;"	f	class:__anon11::GlobalsModRef
+getModRefBehavior	IPA/GlobalsModRef.cpp	/^    ModRefBehavior getModRefBehavior(Function *F,$/;"	f	class:__anon11::GlobalsModRef
+getModRefInfo	AliasAnalysis.cpp	/^AliasAnalysis::getModRefInfo(CallSite CS, Value *P, unsigned Size) {$/;"	f	class:AliasAnalysis
+getModRefInfo	AliasAnalysis.cpp	/^AliasAnalysis::getModRefInfo(CallSite CS1, CallSite CS2) {$/;"	f	class:AliasAnalysis
+getModRefInfo	AliasAnalysis.cpp	/^AliasAnalysis::getModRefInfo(LoadInst *L, Value *P, unsigned Size) {$/;"	f	class:AliasAnalysis
+getModRefInfo	AliasAnalysis.cpp	/^AliasAnalysis::getModRefInfo(StoreInst *S, Value *P, unsigned Size) {$/;"	f	class:AliasAnalysis
+getModRefInfo	AliasAnalysisCounter.cpp	/^    ModRefResult getModRefInfo(CallSite CS1, CallSite CS2) {$/;"	f	class:__anon10::AliasAnalysisCounter
+getModRefInfo	AliasAnalysisCounter.cpp	/^AliasAnalysisCounter::getModRefInfo(CallSite CS, Value *P, unsigned Size) {$/;"	f	class:AliasAnalysisCounter
+getModRefInfo	AliasDebugger.cpp	/^    ModRefResult getModRefInfo(CallSite CS, Value *P, unsigned Size) {$/;"	f	class:__anon18::AliasDebugger
+getModRefInfo	AliasDebugger.cpp	/^    ModRefResult getModRefInfo(CallSite CS1, CallSite CS2) {$/;"	f	class:__anon18::AliasDebugger
+getModRefInfo	BasicAliasAnalysis.cpp	/^    virtual ModRefResult getModRefInfo(CallSite CS, Value *P, unsigned Size) {$/;"	f	struct:__anon16::NoAA
+getModRefInfo	BasicAliasAnalysis.cpp	/^    virtual ModRefResult getModRefInfo(CallSite CS1, CallSite CS2) {$/;"	f	struct:__anon16::NoAA
+getModRefInfo	BasicAliasAnalysis.cpp	/^BasicAliasAnalysis::getModRefInfo(CallSite CS, Value *P, unsigned Size) {$/;"	f	class:BasicAliasAnalysis
+getModRefInfo	BasicAliasAnalysis.cpp	/^BasicAliasAnalysis::getModRefInfo(CallSite CS1, CallSite CS2) {$/;"	f	class:BasicAliasAnalysis
+getModRefInfo	IPA/Andersens.cpp	/^Andersens::getModRefInfo(CallSite CS, Value *P, unsigned Size) {$/;"	f	class:Andersens
+getModRefInfo	IPA/Andersens.cpp	/^Andersens::getModRefInfo(CallSite CS1, CallSite CS2) {$/;"	f	class:Andersens
+getModRefInfo	IPA/GlobalsModRef.cpp	/^    ModRefResult getModRefInfo(CallSite CS1, CallSite CS2) {$/;"	f	class:__anon11::GlobalsModRef
+getModRefInfo	IPA/GlobalsModRef.cpp	/^GlobalsModRef::getModRefInfo(CallSite CS, Value *P, unsigned Size) {$/;"	f	class:GlobalsModRef
+getModRefInfo	LibCallAliasAnalysis.cpp	/^LibCallAliasAnalysis::getModRefInfo(CallSite CS, Value *P, unsigned Size) {$/;"	f	class:LibCallAliasAnalysis
+getModule	Trace.cpp	/^Module *Trace::getModule() const {$/;"	f	class:Trace
+getMulExpr	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getMulExpr(SmallVectorImpl<const SCEV *> &Ops) {$/;"	f	class:ScalarEvolution
+getMustAliases	AliasAnalysis.cpp	/^void AliasAnalysis::getMustAliases(Value *P, std::vector<Value*> &RetVals) {$/;"	f	class:AliasAnalysis
+getMustAliases	AliasDebugger.cpp	/^    void getMustAliases(Value *P, std::vector<Value*> &RetVals) {$/;"	f	class:__anon18::AliasDebugger
+getMustAliases	BasicAliasAnalysis.cpp	/^    virtual void getMustAliases(Value *P, std::vector<Value*> &RetVals) { }$/;"	f	struct:__anon16::NoAA
+getMustAliases	IPA/Andersens.cpp	/^void Andersens::getMustAliases(Value *P, std::vector<Value*> &RetVals) {$/;"	f	class:Andersens
+getNegativeSCEV	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getNegativeSCEV(const SCEV *V) {$/;"	f	class:ScalarEvolution
+getNode	IPA/Andersens.cpp	/^    unsigned getNode(Value *V) {$/;"	f	class:__anon13::Andersens	file:
+getNodeForConstantPointer	IPA/Andersens.cpp	/^unsigned Andersens::getNodeForConstantPointer(Constant *C) {$/;"	f	class:Andersens
+getNodeForConstantPointerTarget	IPA/Andersens.cpp	/^unsigned Andersens::getNodeForConstantPointerTarget(Constant *C) {$/;"	f	class:Andersens
+getNodeLabel	CFGPrinter.cpp	/^  static std::string getNodeLabel(const BasicBlock *Node,$/;"	f	struct:llvm::DOTGraphTraits
+getNodeValue	IPA/Andersens.cpp	/^    unsigned getNodeValue(Value &V) {$/;"	f	class:__anon13::Andersens	file:
+getNonLocalCallDependency	MemoryDependenceAnalysis.cpp	/^MemoryDependenceAnalysis::getNonLocalCallDependency(CallSite QueryCS) {$/;"	f	class:MemoryDependenceAnalysis
+getNonLocalPointerDepFromBB	MemoryDependenceAnalysis.cpp	/^getNonLocalPointerDepFromBB(Value *Pointer, uint64_t PointeeSize,$/;"	f	class:MemoryDependenceAnalysis
+getNonLocalPointerDependency	MemoryDependenceAnalysis.cpp	/^getNonLocalPointerDependency(Value *Pointer, bool isLoad, BasicBlock *FromBB,$/;"	f	class:MemoryDependenceAnalysis
+getNoopOrAnyExtend	ScalarEvolution.cpp	/^ScalarEvolution::getNoopOrAnyExtend(const SCEV *V, const Type *Ty) {$/;"	f	class:ScalarEvolution
+getNoopOrSignExtend	ScalarEvolution.cpp	/^ScalarEvolution::getNoopOrSignExtend(const SCEV *V, const Type *Ty) {$/;"	f	class:ScalarEvolution
+getNoopOrZeroExtend	ScalarEvolution.cpp	/^ScalarEvolution::getNoopOrZeroExtend(const SCEV *V, const Type *Ty) {$/;"	f	class:ScalarEvolution
+getNotSCEV	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getNotSCEV(const SCEV *V) {$/;"	f	class:ScalarEvolution
+getNumElements	DebugInfo.cpp	/^unsigned DIArray::getNumElements() const {$/;"	f	class:DIArray
+getNumIterationsInRange	ScalarEvolution.cpp	/^const SCEV *SCEVAddRecExpr::getNumIterationsInRange(ConstantRange Range,$/;"	f	class:SCEVAddRecExpr
+getObject	IPA/Andersens.cpp	/^    unsigned getObject(Value *V) const {$/;"	f	class:__anon13::Andersens	file:
+getOrInitValueState	SparsePropagation.cpp	/^SparseSolver::LatticeVal SparseSolver::getOrInitValueState(Value *V) {$/;"	f	class:SparseSolver
+getOrInsertCanonicalInductionVariable	ScalarEvolutionExpander.cpp	/^SCEVExpander::getOrInsertCanonicalInductionVariable(const Loop *L,$/;"	f	class:SCEVExpander
+getOrInsertFunction	IPA/CallGraph.cpp	/^CallGraphNode *CallGraph::getOrInsertFunction(const Function *F) {$/;"	f	class:CallGraph
+getOriginalTypeSize	DebugInfo.cpp	/^uint64_t DIDerivedType::getOriginalTypeSize() const {$/;"	f	class:DIDerivedType
+getPassManagerType	IPA/CallGraphSCCPass.cpp	/^  virtual PassManagerType getPassManagerType() const { $/;"	f	class:__anon15::CGPassManager
+getPassName	IPA/CallGraphSCCPass.cpp	/^  virtual const char *getPassName() const {$/;"	f	class:__anon15::CGPassManager
+getPassName	ProfileEstimatorPass.cpp	/^    virtual const char *getPassName() const {$/;"	f	class:__anon3::ProfileEstimatorPass
+getPassName	ProfileInfoLoaderPass.cpp	/^    virtual const char *getPassName() const {$/;"	f	class:__anon20::LoaderPass
+getPointerDependencyFrom	MemoryDependenceAnalysis.cpp	/^getPointerDependencyFrom(Value *MemPtr, uint64_t MemSize, bool isLoad,$/;"	f	class:MemoryDependenceAnalysis
+getPointerOffset	PointerTracking.cpp	/^void PointerTracking::getPointerOffset(Value *Pointer, Value *&Base,$/;"	f	class:llvm::PointerTracking
+getPredecessorWithUniqueSuccessorForBB	ScalarEvolution.cpp	/^ScalarEvolution::getPredecessorWithUniqueSuccessorForBB(BasicBlock *BB) {$/;"	f	class:ScalarEvolution
+getRange	LoopVR.cpp	/^ConstantRange LoopVR::getRange(const SCEV *S, Loop *L, ScalarEvolution &SE) {$/;"	f	class:LoopVR
+getRange	LoopVR.cpp	/^ConstantRange LoopVR::getRange(const SCEV *S, const SCEV *T, ScalarEvolution &SE){$/;"	f	class:LoopVR
+getReplacementExpr	IVUsers.cpp	/^const SCEV *IVUsers::getReplacementExpr(const IVStrideUse &U) const {$/;"	f	class:IVUsers
+getReturnNode	IPA/Andersens.cpp	/^    unsigned getReturnNode(Function *F) const {$/;"	f	class:__anon13::Andersens	file:
+getRoot	IPA/CallGraph.cpp	/^  CallGraphNode *getRoot()             { return Root; }$/;"	f	class:__anon12::BasicCallGraph
+getRoot	IPA/CallGraph.cpp	/^  const CallGraphNode *getRoot() const { return Root; }$/;"	f	class:__anon12::BasicCallGraph
+getSCEV	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getSCEV(Value *V) {$/;"	f	class:ScalarEvolution
+getSCEVAtScope	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getSCEVAtScope(Value *V, const Loop *L) {$/;"	f	class:ScalarEvolution
+getSCEVAtScope	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getSCEVAtScope(const SCEV *V, const Loop *L) {$/;"	f	class:ScalarEvolution
+getSCEVStartAndStride	IVUsers.cpp	/^static bool getSCEVStartAndStride(const SCEV *&SH, Loop *L, Loop *UseLoop,$/;"	f	file:
+getSMaxExpr	ScalarEvolution.cpp	/^ScalarEvolution::getSMaxExpr(SmallVectorImpl<const SCEV *> &Ops) {$/;"	f	class:ScalarEvolution
+getSMaxExpr	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getSMaxExpr(const SCEV *LHS,$/;"	f	class:ScalarEvolution
+getSMinExpr	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getSMinExpr(const SCEV *LHS,$/;"	f	class:ScalarEvolution
+getSignExtendExpr	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getSignExtendExpr(const SCEV *Op,$/;"	f	class:ScalarEvolution
+getSignedRange	ScalarEvolution.cpp	/^ScalarEvolution::getSignedRange(const SCEV *S) {$/;"	f	class:ScalarEvolution
+getSmallConstantTripCount	LoopInfo.cpp	/^unsigned Loop::getSmallConstantTripCount() const {$/;"	f	class:Loop
+getSmallConstantTripMultiple	LoopInfo.cpp	/^unsigned Loop::getSmallConstantTripMultiple() const {$/;"	f	class:Loop
+getStringField	DebugInfo.cpp	/^DIDescriptor::getStringField(unsigned Elt, std::string &Result) const {$/;"	f	class:DIDescriptor
+getTombstoneKey	IPA/Andersens.cpp	/^      static inline Constraint getTombstoneKey() {$/;"	f	struct:__anon13::Andersens::ConstraintKeyInfo
+getTombstoneKey	IPA/Andersens.cpp	/^      static inline std::pair<unsigned, unsigned> getTombstoneKey() {$/;"	f	struct:__anon13::Andersens::PairKeyInfo
+getTombstoneKey	IPA/Andersens.cpp	/^    static inline SparseBitVector<> *getTombstoneKey() {$/;"	f	struct:__anon13::BitmapKeyInfo
+getTripCount	LoopInfo.cpp	/^Value *Loop::getTripCount() const {$/;"	f	class:Loop
+getTruncateExpr	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getTruncateExpr(const SCEV *Op,$/;"	f	class:ScalarEvolution
+getTruncateOrNoop	ScalarEvolution.cpp	/^ScalarEvolution::getTruncateOrNoop(const SCEV *V, const Type *Ty) {$/;"	f	class:ScalarEvolution
+getTruncateOrSignExtend	ScalarEvolution.cpp	/^ScalarEvolution::getTruncateOrSignExtend(const SCEV *V,$/;"	f	class:ScalarEvolution
+getTruncateOrZeroExtend	ScalarEvolution.cpp	/^ScalarEvolution::getTruncateOrZeroExtend(const SCEV *V,$/;"	f	class:ScalarEvolution
+getType	ScalarEvolution.cpp	/^const Type *SCEVConstant::getType() const { return V->getType(); }$/;"	f	class:SCEVConstant
+getType	ScalarEvolution.cpp	/^const Type *SCEVCouldNotCompute::getType() const {$/;"	f	class:SCEVCouldNotCompute
+getType	ScalarEvolution.cpp	/^const Type *SCEVUDivExpr::getType() const {$/;"	f	class:SCEVUDivExpr
+getType	ScalarEvolution.cpp	/^const Type *SCEVUnknown::getType() const {$/;"	f	class:SCEVUnknown
+getTypeSizeInBits	ScalarEvolution.cpp	/^uint64_t ScalarEvolution::getTypeSizeInBits(const Type *Ty) const {$/;"	f	class:ScalarEvolution
+getTypeStoreSize	AliasAnalysis.cpp	/^unsigned AliasAnalysis::getTypeStoreSize(const Type *Ty) {$/;"	f	class:AliasAnalysis
+getUDivExpr	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getUDivExpr(const SCEV *LHS,$/;"	f	class:ScalarEvolution
+getUInt64Field	DebugInfo.cpp	/^uint64_t DIDescriptor::getUInt64Field(unsigned Elt) const {$/;"	f	class:DIDescriptor
+getUMaxExpr	ScalarEvolution.cpp	/^ScalarEvolution::getUMaxExpr(SmallVectorImpl<const SCEV *> &Ops) {$/;"	f	class:ScalarEvolution
+getUMaxExpr	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getUMaxExpr(const SCEV *LHS,$/;"	f	class:ScalarEvolution
+getUMaxFromMismatchedTypes	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getUMaxFromMismatchedTypes(const SCEV *LHS,$/;"	f	class:ScalarEvolution
+getUMinExpr	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getUMinExpr(const SCEV *LHS,$/;"	f	class:ScalarEvolution
+getUMinFromMismatchedTypes	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getUMinFromMismatchedTypes(const SCEV *LHS,$/;"	f	class:ScalarEvolution
+getUnknown	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getUnknown(Value *V) {$/;"	f	class:ScalarEvolution
+getUnsignedRange	ScalarEvolution.cpp	/^ScalarEvolution::getUnsignedRange(const SCEV *S) {$/;"	f	class:ScalarEvolution
+getValue	IPA/Andersens.cpp	/^      Value *getValue() const { return Val; }$/;"	f	struct:__anon13::Andersens::Node
+getVarargNode	IPA/Andersens.cpp	/^    unsigned getVarargNode(Function *F) const {$/;"	f	class:__anon13::Andersens	file:
+getZeroExtendExpr	ScalarEvolution.cpp	/^const SCEV *ScalarEvolution::getZeroExtendExpr(const SCEV *Op,$/;"	f	class:ScalarEvolution
+hasComputableLoopEvolution	ScalarEvolution.cpp	/^bool SCEVCouldNotCompute::hasComputableLoopEvolution(const Loop *L) const {$/;"	f	class:SCEVCouldNotCompute
+hasLoopInvariantBackedgeTakenCount	ScalarEvolution.cpp	/^bool ScalarEvolution::hasLoopInvariantBackedgeTakenCount(const Loop *L) {$/;"	f	class:ScalarEvolution
+hasNoModRefInfoForCalls	AliasAnalysis.cpp	/^bool AliasAnalysis::hasNoModRefInfoForCalls() const {$/;"	f	class:AliasAnalysis
+hasNoModRefInfoForCalls	BasicAliasAnalysis.cpp	/^    virtual bool hasNoModRefInfoForCalls() const { return false; }$/;"	f	struct:__anon17::BasicAliasAnalysis
+hasNoModRefInfoForCalls	BasicAliasAnalysis.cpp	/^    virtual bool hasNoModRefInfoForCalls() const { return true; }$/;"	f	struct:__anon16::NoAA
+hasNoModRefInfoForCalls	IPA/GlobalsModRef.cpp	/^    bool hasNoModRefInfoForCalls() const { return false; }$/;"	f	class:__anon11::GlobalsModRef
+hasOperand	ScalarEvolution.cpp	/^bool SCEVCouldNotCompute::hasOperand(const SCEV *) const {$/;"	f	class:SCEVCouldNotCompute
+ignoreMissing	ProfileEstimatorPass.cpp	/^static double ignoreMissing(double w) {$/;"	f	file:
+initialize	IPA/CallGraph.cpp	/^void CallGraph::initialize(Module &M) {$/;"	f	class:CallGraph
+initializePass	BasicAliasAnalysis.cpp	/^    virtual void initializePass() {$/;"	f	struct:__anon16::NoAA
+insert	IPA/Andersens.cpp	/^      void insert(Node* n) {$/;"	f	class:__anon13::Andersens::WorkList
+insertLoop	LoopPass.cpp	/^void LPPassManager::insertLoop(Loop *L, Loop *ParentLoop) {$/;"	f	class:LPPassManager
+intersects	IPA/Andersens.cpp	/^bool Andersens::Node::intersects(Node *N) const {$/;"	f	class:Andersens::Node
+intersectsIgnoring	IPA/Andersens.cpp	/^bool Andersens::Node::intersectsIgnoring(Node *N, unsigned Ignoring) const {$/;"	f	class:Andersens::Node
+invalidateCachedPointerInfo	MemoryDependenceAnalysis.cpp	/^void MemoryDependenceAnalysis::invalidateCachedPointerInfo(Value *Ptr) {$/;"	f	class:MemoryDependenceAnalysis
+isAffine	LoopDependenceAnalysis.cpp	/^bool LoopDependenceAnalysis::isAffine(const SCEV *S) const {$/;"	f	class:LoopDependenceAnalysis
+isAllOnesValue	ScalarEvolution.cpp	/^bool SCEV::isAllOnesValue() const {$/;"	f	class:SCEV
+isCompositeType	DebugInfo.cpp	/^bool DIType::isCompositeType(unsigned TAG) {$/;"	f	class:DIType
+isDependencePair	LoopDependenceAnalysis.cpp	/^bool LoopDependenceAnalysis::isDependencePair(const Value *A,$/;"	f	class:LoopDependenceAnalysis
+isDerivedType	DebugInfo.cpp	/^bool DIType::isDerivedType(unsigned Tag) {$/;"	f	class:DIType
+isEdgeFeasible	SparsePropagation.cpp	/^bool SparseSolver::isEdgeFeasible(BasicBlock *From, BasicBlock *To,$/;"	f	class:SparseSolver
+isEqual	IPA/Andersens.cpp	/^      static bool isEqual(const Constraint &LHS,$/;"	f	struct:__anon13::Andersens::ConstraintKeyInfo
+isEqual	IPA/Andersens.cpp	/^      static unsigned isEqual(const std::pair<unsigned, unsigned> &LHS,$/;"	f	struct:__anon13::Andersens::PairKeyInfo
+isEqual	IPA/Andersens.cpp	/^    static bool isEqual(const SparseBitVector<> *LHS,$/;"	f	struct:__anon13::BitmapKeyInfo
+isGEP	BasicAliasAnalysis.cpp	/^static const GEPOperator *isGEP(const Value *V) {$/;"	f	file:
+isIdentifiedObject	AliasAnalysis.cpp	/^bool llvm::isIdentifiedObject(const Value *V) {$/;"	f	class:llvm
+isImpliedCond	ScalarEvolution.cpp	/^bool ScalarEvolution::isImpliedCond(Value *CondValue,$/;"	f	class:ScalarEvolution
+isImpliedCondOperands	ScalarEvolution.cpp	/^bool ScalarEvolution::isImpliedCondOperands(ICmpInst::Predicate Pred,$/;"	f	class:ScalarEvolution
+isImpliedCondOperandsHelper	ScalarEvolution.cpp	/^ScalarEvolution::isImpliedCondOperandsHelper(ICmpInst::Predicate Pred,$/;"	f	class:ScalarEvolution
+isInlinedFnEnd	DebugInfo.cpp	/^  bool isInlinedFnEnd(DbgRegionEndInst &REI, const Function *CurrentFn) {$/;"	f	namespace:llvm
+isInlinedFnStart	DebugInfo.cpp	/^  bool isInlinedFnStart(DbgFuncStartInst &FSI, const Function *CurrentFn) {$/;"	f	namespace:llvm
+isKilledInBlock	LiveValues.cpp	/^bool LiveValues::isKilledInBlock(const Value *V, const BasicBlock *BB) {$/;"	f	class:LiveValues
+isKnownNegative	ScalarEvolution.cpp	/^bool ScalarEvolution::isKnownNegative(const SCEV *S) {$/;"	f	class:ScalarEvolution
+isKnownNonNegative	ScalarEvolution.cpp	/^bool ScalarEvolution::isKnownNonNegative(const SCEV *S) {$/;"	f	class:ScalarEvolution
+isKnownNonNull	BasicAliasAnalysis.cpp	/^static bool isKnownNonNull(const Value *V) {$/;"	f	file:
+isKnownNonPositive	ScalarEvolution.cpp	/^bool ScalarEvolution::isKnownNonPositive(const SCEV *S) {$/;"	f	class:ScalarEvolution
+isKnownNonZero	ScalarEvolution.cpp	/^bool ScalarEvolution::isKnownNonZero(const SCEV *S) {$/;"	f	class:ScalarEvolution
+isKnownPositive	ScalarEvolution.cpp	/^bool ScalarEvolution::isKnownPositive(const SCEV *S) {$/;"	f	class:ScalarEvolution
+isKnownPredicate	ScalarEvolution.cpp	/^bool ScalarEvolution::isKnownPredicate(ICmpInst::Predicate Pred,$/;"	f	class:ScalarEvolution
+isLCSSAForm	LoopInfo.cpp	/^bool Loop::isLCSSAForm() const {$/;"	f	class:Loop
+isLiveThroughBlock	LiveValues.cpp	/^bool LiveValues::isLiveThroughBlock(const Value *V,$/;"	f	class:LiveValues
+isLoop	Interval.cpp	/^bool Interval::isLoop() const {$/;"	f	class:Interval
+isLoopBackedgeGuardedByCond	ScalarEvolution.cpp	/^ScalarEvolution::isLoopBackedgeGuardedByCond(const Loop *L,$/;"	f	class:ScalarEvolution
+isLoopGuardedBy	PointerTracking.cpp	/^enum SolverResult PointerTracking::isLoopGuardedBy(const Loop *L,$/;"	f	class:llvm::PointerTracking
+isLoopGuardedByCond	ScalarEvolution.cpp	/^ScalarEvolution::isLoopGuardedByCond(const Loop *L,$/;"	f	class:ScalarEvolution
+isLoopInvariant	LoopDependenceAnalysis.cpp	/^bool LoopDependenceAnalysis::isLoopInvariant(const SCEV *S) const {$/;"	f	class:LoopDependenceAnalysis
+isLoopInvariant	LoopInfo.cpp	/^bool Loop::isLoopInvariant(Instruction *I) const {$/;"	f	class:Loop
+isLoopInvariant	LoopInfo.cpp	/^bool Loop::isLoopInvariant(Value *V) const {$/;"	f	class:Loop
+isLoopInvariant	ScalarEvolution.cpp	/^bool SCEVAddRecExpr::isLoopInvariant(const Loop *QueryLoop) const {$/;"	f	class:SCEVAddRecExpr
+isLoopInvariant	ScalarEvolution.cpp	/^bool SCEVCouldNotCompute::isLoopInvariant(const Loop *L) const {$/;"	f	class:SCEVCouldNotCompute
+isLoopInvariant	ScalarEvolution.cpp	/^bool SCEVUnknown::isLoopInvariant(const Loop *L) const {$/;"	f	class:SCEVUnknown
+isLoopSimplifyForm	LoopInfo.cpp	/^bool Loop::isLoopSimplifyForm() const {$/;"	f	class:Loop
+isNoAliasCall	AliasAnalysis.cpp	/^bool llvm::isNoAliasCall(const Value *V) {$/;"	f	class:llvm
+isNonEscapingLocalObject	BasicAliasAnalysis.cpp	/^static bool isNonEscapingLocalObject(const Value *V) {$/;"	f	file:
+isObjectSmallerThan	BasicAliasAnalysis.cpp	/^static bool isObjectSmallerThan(const Value *V, unsigned Size,$/;"	f	file:
+isOne	ScalarEvolution.cpp	/^bool SCEV::isOne() const {$/;"	f	class:SCEV
+isPod	IPA/Andersens.cpp	/^    static bool isPod() { return true; }$/;"	f	struct:__anon13::BitmapKeyInfo
+isRep	IPA/Andersens.cpp	/^      bool isRep() const {$/;"	f	struct:__anon13::Andersens::Node
+isSCEVable	ScalarEvolution.cpp	/^bool ScalarEvolution::isSCEVable(const Type *Ty) const {$/;"	f	class:ScalarEvolution
+isSIVPair	LoopDependenceAnalysis.cpp	/^bool LoopDependenceAnalysis::isSIVPair(const SCEV *A, const SCEV *B) const {$/;"	f	class:LoopDependenceAnalysis
+isUsedInBlock	LiveValues.cpp	/^bool LiveValues::isUsedInBlock(const Value *V, const BasicBlock *BB) {$/;"	f	class:LiveValues
+isValidDebugInfoIntrinsic	DebugInfo.cpp	/^  bool isValidDebugInfoIntrinsic(DbgDeclareInst &DI,$/;"	f	namespace:llvm
+isValidDebugInfoIntrinsic	DebugInfo.cpp	/^  bool isValidDebugInfoIntrinsic(DbgFuncStartInst &FSI,$/;"	f	namespace:llvm
+isValidDebugInfoIntrinsic	DebugInfo.cpp	/^  bool isValidDebugInfoIntrinsic(DbgRegionEndInst &REI,$/;"	f	namespace:llvm
+isValidDebugInfoIntrinsic	DebugInfo.cpp	/^  bool isValidDebugInfoIntrinsic(DbgRegionStartInst &RSI,$/;"	f	namespace:llvm
+isValidDebugInfoIntrinsic	DebugInfo.cpp	/^  bool isValidDebugInfoIntrinsic(DbgStopPointInst &SPI, $/;"	f	namespace:llvm
+isVariable	DebugInfo.cpp	/^bool DIVariable::isVariable(unsigned Tag) {$/;"	f	class:DIVariable
+isZIVPair	LoopDependenceAnalysis.cpp	/^bool LoopDependenceAnalysis::isZIVPair(const SCEV *A, const SCEV *B) const {$/;"	f	class:LoopDependenceAnalysis
+isZero	ScalarEvolution.cpp	/^bool SCEV::isZero() const {$/;"	f	class:SCEV
+llvm	CFGPrinter.cpp	/^namespace llvm {$/;"	n	file:
+llvm	DebugInfo.cpp	/^namespace llvm {$/;"	n	file:
+llvm	PointerTracking.cpp	/^namespace llvm {$/;"	n	file:
+llvm	ProfileEstimatorPass.cpp	/^namespace llvm {$/;"	n	file:
+makeLoopInvariant	LoopInfo.cpp	/^bool Loop::makeLoopInvariant(Instruction *I, bool &Changed,$/;"	f	class:Loop
+makeLoopInvariant	LoopInfo.cpp	/^bool Loop::makeLoopInvariant(Value *V, bool &Changed,$/;"	f	class:Loop
+markEdgeExecutable	SparsePropagation.cpp	/^void SparseSolver::markEdgeExecutable(BasicBlock *Source, BasicBlock *Dest) {$/;"	f	class:SparseSolver
+mergeSetIn	AliasSetTracker.cpp	/^void AliasSet::mergeSetIn(AliasSet &AS, AliasSetTracker &AST) {$/;"	f	class:AliasSet
+narrow	LoopVR.cpp	/^void LoopVR::narrow(Value *V, const ConstantRange &CR) {$/;"	f	class:LoopVR
+node	IPA/Andersens.cpp	/^      Node* node;$/;"	m	struct:__anon13::Andersens::WorkListElement	file:
+onlyReadsMemory	AliasAnalysisCounter.cpp	/^    bool onlyReadsMemory(CallSite CS) {$/;"	f	class:__anon10::AliasAnalysisCounter
+onlyReadsMemory	AliasAnalysisCounter.cpp	/^    bool onlyReadsMemory(Function *F) {$/;"	f	class:__anon10::AliasAnalysisCounter
+operator !=	IPA/Andersens.cpp	/^      bool operator!=(const Constraint &RHS) const {$/;"	f	struct:__anon13::Andersens::Constraint
+operator ()	ScalarEvolution.cpp	/^    bool operator()(const APInt &LHS, const APInt &RHS) const {$/;"	f	struct:__anon2::APIntCompare
+operator ()	ScalarEvolution.cpp	/^    bool operator()(const SCEV *LHS, const SCEV *RHS) const {$/;"	f	class:__anon1::SCEVComplexityCompare
+operator <	IPA/Andersens.cpp	/^      bool operator<(const Constraint &RHS) const {$/;"	f	struct:__anon13::Andersens::Constraint
+operator <	IPA/Andersens.cpp	/^      bool operator<(const WorkListElement& that) const {$/;"	f	struct:__anon13::Andersens::WorkListElement
+operator =	AliasSetTracker.cpp	/^AliasSetTracker::ASTCallbackVH::operator=(Value *V) {$/;"	f	class:AliasSetTracker::ASTCallbackVH
+operator ==	IPA/Andersens.cpp	/^      bool operator==(const Constraint &RHS) const {$/;"	f	struct:__anon13::Andersens::Constraint
+pointsToConstantMemory	AliasAnalysis.cpp	/^bool AliasAnalysis::pointsToConstantMemory(const Value *P) {$/;"	f	class:AliasAnalysis
+pointsToConstantMemory	AliasAnalysisCounter.cpp	/^    bool pointsToConstantMemory(const Value *P) {$/;"	f	class:__anon10::AliasAnalysisCounter
+pointsToConstantMemory	AliasDebugger.cpp	/^    bool pointsToConstantMemory(const Value *P) {$/;"	f	class:__anon18::AliasDebugger
+pointsToConstantMemory	BasicAliasAnalysis.cpp	/^    virtual bool pointsToConstantMemory(const Value *P) { return false; }$/;"	f	struct:__anon16::NoAA
+pointsToConstantMemory	BasicAliasAnalysis.cpp	/^bool BasicAliasAnalysis::pointsToConstantMemory(const Value *P) {$/;"	f	class:BasicAliasAnalysis
+pointsToConstantMemory	IPA/Andersens.cpp	/^bool Andersens::pointsToConstantMemory(const Value *P) {$/;"	f	class:Andersens
+pop	IPA/Andersens.cpp	/^      Node* pop() {$/;"	f	class:__anon13::Andersens::WorkList
+preparePassManager	LoopPass.cpp	/^void LoopPass::preparePassManager(PMStack &PMS) {$/;"	f	class:LoopPass
+print	AliasSetTracker.cpp	/^void AliasSet::print(std::ostream &OS) const {$/;"	f	class:AliasSet
+print	AliasSetTracker.cpp	/^void AliasSetTracker::print(std::ostream &OS) const {$/;"	f	class:AliasSetTracker
+print	CFGPrinter.cpp	/^    void print(std::ostream &OS, const Module* = 0) const {}$/;"	f	struct:__anon5::CFGViewer
+print	CFGPrinter.cpp	/^    void print(std::ostream &OS, const Module* = 0) const {}$/;"	f	struct:__anon6::CFGOnlyViewer
+print	CFGPrinter.cpp	/^    void print(std::ostream &OS, const Module* = 0) const {}$/;"	f	struct:__anon7::CFGPrinter
+print	CFGPrinter.cpp	/^    void print(std::ostream &OS, const Module* = 0) const {}$/;"	f	struct:__anon8::CFGOnlyPrinter
+print	IPA/Andersens.cpp	/^    void print(std::ostream &O, const Module* M) const {$/;"	f	class:__anon13::Andersens	file:
+print	IPA/CallGraph.cpp	/^  virtual void print(std::ostream &o, const Module *M) const {$/;"	f	class:__anon12::BasicCallGraph
+print	IPA/CallGraph.cpp	/^  void print(std::ostream *o, const Module *M) const {$/;"	f	class:__anon12::BasicCallGraph
+print	IPA/CallGraph.cpp	/^void CallGraph::print(std::ostream &OS, const Module *M) const {$/;"	f	class:CallGraph
+print	IPA/CallGraph.cpp	/^void CallGraphNode::print(std::ostream &OS) const {$/;"	f	class:CallGraphNode
+print	IPA/FindUsedTypes.cpp	/^void FindUsedTypes::print(std::ostream &OS, const Module *M) const {$/;"	f	class:FindUsedTypes
+print	IVUsers.cpp	/^void IVUsers::print(raw_ostream &OS, const Module *M) const {$/;"	f	class:IVUsers
+print	IVUsers.cpp	/^void IVUsers::print(std::ostream &o, const Module *M) const {$/;"	f	class:IVUsers
+print	InstCount.cpp	/^    virtual void print(std::ostream &O, const Module *M) const {}$/;"	f	class:__anon22::InstCount
+print	Interval.cpp	/^void Interval::print(std::ostream &o) const {$/;"	f	class:Interval
+print	IntervalPartition.cpp	/^void IntervalPartition::print(std::ostream &O, const Module*) const {$/;"	f	class:IntervalPartition
+print	LoopDependenceAnalysis.cpp	/^void LoopDependenceAnalysis::print(raw_ostream &OS, const Module*) const {$/;"	f	class:LoopDependenceAnalysis
+print	LoopDependenceAnalysis.cpp	/^void LoopDependenceAnalysis::print(std::ostream &OS, const Module *M) const {$/;"	f	class:LoopDependenceAnalysis
+print	LoopVR.cpp	/^void LoopVR::print(std::ostream &os, const Module *) const {$/;"	f	class:LoopVR
+print	PointerTracking.cpp	/^void PointerTracking::print(raw_ostream &OS, const Module* M) const {$/;"	f	class:llvm::PointerTracking
+print	PointerTracking.cpp	/^void PointerTracking::print(std::ostream &o, const Module* M) const {$/;"	f	class:llvm::PointerTracking
+print	ScalarEvolution.cpp	/^void SCEV::print(std::ostream &o) const {$/;"	f	class:SCEV
+print	ScalarEvolution.cpp	/^void SCEVAddRecExpr::print(raw_ostream &OS) const {$/;"	f	class:SCEVAddRecExpr
+print	ScalarEvolution.cpp	/^void SCEVAllocSizeExpr::print(raw_ostream &OS) const {$/;"	f	class:SCEVAllocSizeExpr
+print	ScalarEvolution.cpp	/^void SCEVCommutativeExpr::print(raw_ostream &OS) const {$/;"	f	class:SCEVCommutativeExpr
+print	ScalarEvolution.cpp	/^void SCEVConstant::print(raw_ostream &OS) const {$/;"	f	class:SCEVConstant
+print	ScalarEvolution.cpp	/^void SCEVCouldNotCompute::print(raw_ostream &OS) const {$/;"	f	class:SCEVCouldNotCompute
+print	ScalarEvolution.cpp	/^void SCEVFieldOffsetExpr::print(raw_ostream &OS) const {$/;"	f	class:SCEVFieldOffsetExpr
+print	ScalarEvolution.cpp	/^void SCEVSignExtendExpr::print(raw_ostream &OS) const {$/;"	f	class:SCEVSignExtendExpr
+print	ScalarEvolution.cpp	/^void SCEVTruncateExpr::print(raw_ostream &OS) const {$/;"	f	class:SCEVTruncateExpr
+print	ScalarEvolution.cpp	/^void SCEVUDivExpr::print(raw_ostream &OS) const {$/;"	f	class:SCEVUDivExpr
+print	ScalarEvolution.cpp	/^void SCEVUnknown::print(raw_ostream &OS) const {$/;"	f	class:SCEVUnknown
+print	ScalarEvolution.cpp	/^void SCEVZeroExtendExpr::print(raw_ostream &OS) const {$/;"	f	class:SCEVZeroExtendExpr
+print	ScalarEvolution.cpp	/^void ScalarEvolution::print(raw_ostream &OS, const Module* ) const {$/;"	f	class:ScalarEvolution
+print	ScalarEvolution.cpp	/^void ScalarEvolution::print(std::ostream &o, const Module *M) const {$/;"	f	class:ScalarEvolution
+print	Trace.cpp	/^void Trace::print(std::ostream &O) const {$/;"	f	class:Trace
+printFuncStart	DbgInfoPrinter.cpp	/^void PrintDbgInfo::printFuncStart(const DbgFuncStartInst *FS) {$/;"	f	class:PrintDbgInfo
+printLine	AliasAnalysisCounter.cpp	/^    void printLine(const char *Desc, unsigned Val, unsigned Sum) {$/;"	f	class:__anon10::AliasAnalysisCounter
+printStopPoint	DbgInfoPrinter.cpp	/^void PrintDbgInfo::printStopPoint(const DbgStopPointInst *DSI) {$/;"	f	class:PrintDbgInfo
+printVariableDeclaration	DbgInfoPrinter.cpp	/^void PrintDbgInfo::printVariableDeclaration(const Value *V) {$/;"	f	class:PrintDbgInfo
+processDeclare	DebugInfo.cpp	/^void DebugInfoFinder::processDeclare(DbgDeclareInst *DDI) {$/;"	f	class:DebugInfoFinder
+processFuncStart	DebugInfo.cpp	/^void DebugInfoFinder::processFuncStart(DbgFuncStartInst *FSI) {$/;"	f	class:DebugInfoFinder
+processModule	DebugInfo.cpp	/^void DebugInfoFinder::processModule(Module &M) {$/;"	f	class:DebugInfoFinder
+processRegionEnd	DebugInfo.cpp	/^void DebugInfoFinder::processRegionEnd(DbgRegionEndInst *DRE) {$/;"	f	class:DebugInfoFinder
+processRegionStart	DebugInfo.cpp	/^void DebugInfoFinder::processRegionStart(DbgRegionStartInst *DRS) {$/;"	f	class:DebugInfoFinder
+processStopPoint	DebugInfo.cpp	/^void DebugInfoFinder::processStopPoint(DbgStopPointInst *SPI) {$/;"	f	class:DebugInfoFinder
+processSubprogram	DebugInfo.cpp	/^void DebugInfoFinder::processSubprogram(DISubprogram SP) {$/;"	f	class:DebugInfoFinder
+processType	DebugInfo.cpp	/^void DebugInfoFinder::processType(DIType DT) {$/;"	f	class:DebugInfoFinder
+recurseBasicBlock	ProfileEstimatorPass.cpp	/^void ProfileEstimatorPass::recurseBasicBlock(BasicBlock *BB) {$/;"	f	class:ProfileEstimatorPass
+redoLoop	LoopPass.cpp	/^void LPPassManager::redoLoop(Loop *L) {$/;"	f	class:LPPassManager
+releaseMemory	IPA/Andersens.cpp	/^    void releaseMemory() {$/;"	f	class:__anon13::Andersens
+releaseMemory	IPA/CallGraph.cpp	/^  virtual void releaseMemory() {$/;"	f	class:__anon12::BasicCallGraph
+releaseMemory	IVUsers.cpp	/^void IVUsers::releaseMemory() {$/;"	f	class:IVUsers
+releaseMemory	IntervalPartition.cpp	/^void IntervalPartition::releaseMemory() {$/;"	f	class:IntervalPartition
+releaseMemory	LiveValues.cpp	/^void LiveValues::releaseMemory() {$/;"	f	class:LiveValues
+releaseMemory	LoopDependenceAnalysis.cpp	/^void LoopDependenceAnalysis::releaseMemory() {$/;"	f	class:LoopDependenceAnalysis
+releaseMemory	LoopVR.cpp	/^void LoopVR::releaseMemory() {$/;"	f	class:LoopVR
+releaseMemory	MemoryDependenceAnalysis.cpp	/^void MemoryDependenceAnalysis::releaseMemory() {$/;"	f	class:MemoryDependenceAnalysis
+releaseMemory	ScalarEvolution.cpp	/^void ScalarEvolution::releaseMemory() {$/;"	f	class:ScalarEvolution
+remove	AliasSetTracker.cpp	/^bool AliasSetTracker::remove(CallSite CS) {$/;"	f	class:AliasSetTracker
+remove	AliasSetTracker.cpp	/^bool AliasSetTracker::remove(FreeInst *FI) {$/;"	f	class:AliasSetTracker
+remove	AliasSetTracker.cpp	/^bool AliasSetTracker::remove(Instruction *I) {$/;"	f	class:AliasSetTracker
+remove	AliasSetTracker.cpp	/^bool AliasSetTracker::remove(LoadInst *LI) {$/;"	f	class:AliasSetTracker
+remove	AliasSetTracker.cpp	/^bool AliasSetTracker::remove(StoreInst *SI) {$/;"	f	class:AliasSetTracker
+remove	AliasSetTracker.cpp	/^bool AliasSetTracker::remove(VAArgInst *VAAI) {$/;"	f	class:AliasSetTracker
+remove	AliasSetTracker.cpp	/^bool AliasSetTracker::remove(Value *Ptr, unsigned Size) {$/;"	f	class:AliasSetTracker
+remove	AliasSetTracker.cpp	/^void AliasSetTracker::remove(AliasSet &AS) {$/;"	f	class:AliasSetTracker
+remove	LoopVR.cpp	/^void LoopVR::remove(Value *V) {$/;"	f	class:LoopVR
+removeAliasSet	AliasSetTracker.cpp	/^void AliasSetTracker::removeAliasSet(AliasSet *AS) {$/;"	f	class:AliasSetTracker
+removeAnyCallEdgeTo	IPA/CallGraph.cpp	/^void CallGraphNode::removeAnyCallEdgeTo(CallGraphNode *Callee) {$/;"	f	class:CallGraphNode
+removeCallEdgeFor	IPA/CallGraph.cpp	/^void CallGraphNode::removeCallEdgeFor(CallSite CS) {$/;"	f	class:CallGraphNode
+removeFromTracker	AliasSetTracker.cpp	/^void AliasSet::removeFromTracker(AliasSetTracker &AST) {$/;"	f	class:AliasSet
+removeFunctionFromModule	IPA/CallGraph.cpp	/^Function *CallGraph::removeFunctionFromModule(CallGraphNode *CGN) {$/;"	f	class:CallGraph
+removeInstruction	MemoryDependenceAnalysis.cpp	/^void MemoryDependenceAnalysis::removeInstruction(Instruction *RemInst) {$/;"	f	class:MemoryDependenceAnalysis
+removeOneAbstractEdgeTo	IPA/CallGraph.cpp	/^void CallGraphNode::removeOneAbstractEdgeTo(CallGraphNode *Callee) {$/;"	f	class:CallGraphNode
+replaceAllUsesWith	DebugInfo.cpp	/^void DIDerivedType::replaceAllUsesWith(DIDescriptor &D) {$/;"	f	class:DIDerivedType
+replaceCallSite	IPA/CallGraph.cpp	/^void CallGraphNode::replaceCallSite(CallSite Old, CallSite New) {$/;"	f	class:CallGraphNode
+runOnFunction	AliasAnalysisEvaluator.cpp	/^bool AAEval::runOnFunction(Function &F) {$/;"	f	class:AAEval
+runOnFunction	AliasSetTracker.cpp	/^    virtual bool runOnFunction(Function &F) {$/;"	f	class:__anon4::AliasSetPrinter
+runOnFunction	CFGPrinter.cpp	/^    virtual bool runOnFunction(Function &F) {$/;"	f	struct:__anon5::CFGViewer
+runOnFunction	CFGPrinter.cpp	/^    virtual bool runOnFunction(Function &F) {$/;"	f	struct:__anon6::CFGOnlyViewer
+runOnFunction	CFGPrinter.cpp	/^    virtual bool runOnFunction(Function &F) {$/;"	f	struct:__anon7::CFGPrinter
+runOnFunction	CFGPrinter.cpp	/^    virtual bool runOnFunction(Function &F) {$/;"	f	struct:__anon8::CFGOnlyPrinter
+runOnFunction	DbgInfoPrinter.cpp	/^bool PrintDbgInfo::runOnFunction(Function &F) {$/;"	f	class:PrintDbgInfo
+runOnFunction	InstCount.cpp	/^bool InstCount::runOnFunction(Function &F) {$/;"	f	class:InstCount
+runOnFunction	IntervalPartition.cpp	/^bool IntervalPartition::runOnFunction(Function &F) {$/;"	f	class:IntervalPartition
+runOnFunction	LiveValues.cpp	/^bool LiveValues::runOnFunction(Function &F) {$/;"	f	class:LiveValues
+runOnFunction	LoopInfo.cpp	/^bool LoopInfo::runOnFunction(Function &) {$/;"	f	class:LoopInfo
+runOnFunction	LoopPass.cpp	/^bool LPPassManager::runOnFunction(Function &F) {$/;"	f	class:LPPassManager
+runOnFunction	LoopVR.cpp	/^bool LoopVR::runOnFunction(Function &F) { Map.clear(); return false; }$/;"	f	class:LoopVR
+runOnFunction	MemoryDependenceAnalysis.cpp	/^bool MemoryDependenceAnalysis::runOnFunction(Function &) {$/;"	f	class:MemoryDependenceAnalysis
+runOnFunction	PointerTracking.cpp	/^bool PointerTracking::runOnFunction(Function &F) {$/;"	f	class:llvm::PointerTracking
+runOnFunction	PostDominators.cpp	/^bool PostDominatorTree::runOnFunction(Function &F) {$/;"	f	class:PostDominatorTree
+runOnFunction	ProfileEstimatorPass.cpp	/^bool ProfileEstimatorPass::runOnFunction(Function &F) {$/;"	f	class:ProfileEstimatorPass
+runOnFunction	ScalarEvolution.cpp	/^bool ScalarEvolution::runOnFunction(Function &F) {$/;"	f	class:ScalarEvolution
+runOnLoop	IVUsers.cpp	/^bool IVUsers::runOnLoop(Loop *l, LPPassManager &LPM) {$/;"	f	class:IVUsers
+runOnLoop	LoopDependenceAnalysis.cpp	/^bool LoopDependenceAnalysis::runOnLoop(Loop *L, LPPassManager &) {$/;"	f	class:LoopDependenceAnalysis
+runOnModule	AliasAnalysisCounter.cpp	/^    bool runOnModule(Module &M) {$/;"	f	class:__anon10::AliasAnalysisCounter
+runOnModule	AliasDebugger.cpp	/^    bool runOnModule(Module &M) {$/;"	f	class:__anon18::AliasDebugger
+runOnModule	IPA/Andersens.cpp	/^    bool runOnModule(Module &M) {$/;"	f	class:__anon13::Andersens
+runOnModule	IPA/CallGraph.cpp	/^  virtual bool runOnModule(Module &M) {$/;"	f	class:__anon12::BasicCallGraph
+runOnModule	IPA/CallGraphSCCPass.cpp	/^bool CGPassManager::runOnModule(Module &M) {$/;"	f	class:CGPassManager
+runOnModule	IPA/FindUsedTypes.cpp	/^bool FindUsedTypes::runOnModule(Module &m) {$/;"	f	class:FindUsedTypes
+runOnModule	IPA/GlobalsModRef.cpp	/^    bool runOnModule(Module &M) {$/;"	f	class:__anon11::GlobalsModRef
+runOnModule	ProfileInfoLoaderPass.cpp	/^bool LoaderPass::runOnModule(Module &M) {$/;"	f	class:LoaderPass
+setValue	IPA/Andersens.cpp	/^      Node *setValue(Value *V) {$/;"	f	struct:__anon13::Andersens::Node
+updatePredecessors	IntervalPartition.cpp	/^void IntervalPartition::updatePredecessors(Interval *Int) {$/;"	f	class:IntervalPartition
+verifyRemoved	MemoryDependenceAnalysis.cpp	/^void MemoryDependenceAnalysis::verifyRemoved(Instruction *D) const {$/;"	f	class:MemoryDependenceAnalysis
+viewCFG	CFGPrinter.cpp	/^void Function::viewCFG() const {$/;"	f	class:Function
+viewCFGOnly	CFGPrinter.cpp	/^void Function::viewCFGOnly() const {$/;"	f	class:Function
+visitAddExpr	ScalarEvolutionExpander.cpp	/^Value *SCEVExpander::visitAddExpr(const SCEVAddExpr *S) {$/;"	f	class:SCEVExpander
+visitAddRecExpr	ScalarEvolutionExpander.cpp	/^Value *SCEVExpander::visitAddRecExpr(const SCEVAddRecExpr *S) {$/;"	f	class:SCEVExpander
+visitAllocSizeExpr	ScalarEvolutionExpander.cpp	/^Value *SCEVExpander::visitAllocSizeExpr(const SCEVAllocSizeExpr *S) {$/;"	f	class:SCEVExpander
+visitAllocationInst	IPA/Andersens.cpp	/^void Andersens::visitAllocationInst(AllocationInst &AI) {$/;"	f	class:Andersens
+visitBasicBlock	InstCount.cpp	/^    void visitBasicBlock(BasicBlock &BB) { ++TotalBlocks; }$/;"	f	class:__anon22::InstCount	file:
+visitCallInst	IPA/Andersens.cpp	/^    void visitCallInst(CallInst &CI) { visitCallSite(CallSite(&CI)); }$/;"	f	class:__anon13::Andersens	file:
+visitCallSite	IPA/Andersens.cpp	/^void Andersens::visitCallSite(CallSite CS) {$/;"	f	class:Andersens
+visitCastInst	IPA/Andersens.cpp	/^void Andersens::visitCastInst(CastInst &CI) {$/;"	f	class:Andersens
+visitFCmpInst	IPA/Andersens.cpp	/^    void visitFCmpInst(FCmpInst &ICI) {} \/\/ NOOP!$/;"	f	class:__anon13::Andersens	file:
+visitFieldOffsetExpr	ScalarEvolutionExpander.cpp	/^Value *SCEVExpander::visitFieldOffsetExpr(const SCEVFieldOffsetExpr *S) {$/;"	f	class:SCEVExpander
+visitFunction	InstCount.cpp	/^    void visitFunction  (Function &F) { ++TotalFuncs; }$/;"	f	class:__anon22::InstCount	file:
+visitGetElementPtrInst	IPA/Andersens.cpp	/^void Andersens::visitGetElementPtrInst(GetElementPtrInst &GEP) {$/;"	f	class:Andersens
+visitICmpInst	IPA/Andersens.cpp	/^    void visitICmpInst(ICmpInst &ICI) {} \/\/ NOOP!$/;"	f	class:__anon13::Andersens	file:
+visitInst	SparsePropagation.cpp	/^void SparseSolver::visitInst(Instruction &I) {$/;"	f	class:SparseSolver
+visitInstruction	IPA/Andersens.cpp	/^void Andersens::visitInstruction(Instruction &I) {$/;"	f	class:Andersens
+visitInstruction	InstCount.cpp	/^    void visitInstruction(Instruction &I) {$/;"	f	class:__anon22::InstCount	file:
+visitInvokeInst	IPA/Andersens.cpp	/^    void visitInvokeInst(InvokeInst &II) { visitCallSite(CallSite(&II)); }$/;"	f	class:__anon13::Andersens	file:
+visitLoadInst	IPA/Andersens.cpp	/^void Andersens::visitLoadInst(LoadInst &LI) {$/;"	f	class:Andersens
+visitMulExpr	ScalarEvolutionExpander.cpp	/^Value *SCEVExpander::visitMulExpr(const SCEVMulExpr *S) {$/;"	f	class:SCEVExpander
+visitPHINode	IPA/Andersens.cpp	/^void Andersens::visitPHINode(PHINode &PN) {$/;"	f	class:Andersens
+visitPHINode	SparsePropagation.cpp	/^void SparseSolver::visitPHINode(PHINode &PN) {$/;"	f	class:SparseSolver
+visitReturnInst	IPA/Andersens.cpp	/^void Andersens::visitReturnInst(ReturnInst &RI) {$/;"	f	class:Andersens
+visitSMaxExpr	ScalarEvolutionExpander.cpp	/^Value *SCEVExpander::visitSMaxExpr(const SCEVSMaxExpr *S) {$/;"	f	class:SCEVExpander
+visitSelectInst	IPA/Andersens.cpp	/^void Andersens::visitSelectInst(SelectInst &SI) {$/;"	f	class:Andersens
+visitSignExtendExpr	ScalarEvolutionExpander.cpp	/^Value *SCEVExpander::visitSignExtendExpr(const SCEVSignExtendExpr *S) {$/;"	f	class:SCEVExpander
+visitStoreInst	IPA/Andersens.cpp	/^void Andersens::visitStoreInst(StoreInst &SI) {$/;"	f	class:Andersens
+visitTerminatorInst	SparsePropagation.cpp	/^void SparseSolver::visitTerminatorInst(TerminatorInst &TI) {$/;"	f	class:SparseSolver
+visitTruncateExpr	ScalarEvolutionExpander.cpp	/^Value *SCEVExpander::visitTruncateExpr(const SCEVTruncateExpr *S) {$/;"	f	class:SCEVExpander
+visitUDivExpr	ScalarEvolutionExpander.cpp	/^Value *SCEVExpander::visitUDivExpr(const SCEVUDivExpr *S) {$/;"	f	class:SCEVExpander
+visitUMaxExpr	ScalarEvolutionExpander.cpp	/^Value *SCEVExpander::visitUMaxExpr(const SCEVUMaxExpr *S) {$/;"	f	class:SCEVExpander
+visitVAArg	IPA/Andersens.cpp	/^void Andersens::visitVAArg(VAArgInst &I) {$/;"	f	class:Andersens
+visitZeroExtendExpr	ScalarEvolutionExpander.cpp	/^Value *SCEVExpander::visitZeroExtendExpr(const SCEVZeroExtendExpr *S) {$/;"	f	class:SCEVExpander
+w1	IPA/Andersens.cpp	/^    WorkList w1, w2;$/;"	m	class:__anon13::Andersens	file:
+w2	IPA/Andersens.cpp	/^    WorkList w1, w2;$/;"	m	class:__anon13::Andersens	file:
+~AbstractLatticeFunction	SparsePropagation.cpp	/^AbstractLatticeFunction::~AbstractLatticeFunction() {}$/;"	f	class:AbstractLatticeFunction
+~AliasAnalysis	AliasAnalysis.cpp	/^AliasAnalysis::~AliasAnalysis() {}$/;"	f	class:AliasAnalysis
+~AliasAnalysisCounter	AliasAnalysisCounter.cpp	/^    ~AliasAnalysisCounter() {$/;"	f	class:__anon10::AliasAnalysisCounter
+~LibCallAliasAnalysis	LibCallAliasAnalysis.cpp	/^LibCallAliasAnalysis::~LibCallAliasAnalysis() {$/;"	f	class:LibCallAliasAnalysis
+~LibCallInfo	LibCallSemantics.cpp	/^LibCallInfo::~LibCallInfo() {$/;"	f	class:LibCallInfo
+~MemoryDependenceAnalysis	MemoryDependenceAnalysis.cpp	/^MemoryDependenceAnalysis::~MemoryDependenceAnalysis() {$/;"	f	class:MemoryDependenceAnalysis
+~PostDominatorTree	PostDominators.cpp	/^PostDominatorTree::~PostDominatorTree()$/;"	f	class:PostDominatorTree
+~ProfileInfo	ProfileInfo.cpp	/^ProfileInfo::~ProfileInfo() {}$/;"	f	class:ProfileInfo
+~SCEV	ScalarEvolution.cpp	/^SCEV::~SCEV() {}$/;"	f	class:SCEV
